@@ -115,9 +115,32 @@
 
 ## Version 1.1.4.0-release
 
-* 2015
+* 25 Nov 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
+
+* Add
+  * Compatibility
+    * [ActiveTextureManager.cfg] v1.0.0.0
+* Convert
+  * [agr-moremetall-diff] from .png to .dds
+  * [green.png] from 8x8 to 4x4
+  * [red.png] from 8x8 to 4x4
+* Note: do not convert the png's
+* Code
+  * [RoverAntiGravitySystem.dll] v1.1.4.36
+* Update
+  * [agModule.cfg]
+    * [crashTolerance] from 1 to 11
+    * [maxTemp] from 300 to 1650
+    * [bulkheadProfiles] = size0
+    * [minimum_drag] from 0.2 to 0.1
+    * [mass] from 0.2 to 0.045
+    * [description] add "Can't change atmospheric influences. Only to be used on rovers!"
+    * [title] correct case
+    * [manufacturer] correct manufacturer's name
+    * [TechRequired] from composites to specializedElectrics
+    * [cost] from 16 to 2600
 
 ### Status
 
