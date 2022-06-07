@@ -1,10 +1,18 @@
-﻿using System;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using UnityEngine;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using KSP.IO;
+using KSP;
 
-namespace agModule
+namespace RoverAntiGravitySystem
 {
     public class agModule : PartModule
     {
