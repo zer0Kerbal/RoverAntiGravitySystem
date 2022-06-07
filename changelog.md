@@ -175,9 +175,22 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-* Initial release
-* [RoverAntiGravitySystem] v1.0.0.32
+* [agModule.cfg]
+  * [rescaleFactor] from 1 to 2
+* changes
+  * [agModule.mu]
+* add
+  * [agr-moremetall-diff.png]
 
+### Code
+
+* Rename
+  * Box002 to buttonGreen
+  * Box003 to buttonRed
+* Add Hotkey (keypad 5)
+* this.myAnimation["switch"].speed = 1 from 5;
+* [RoverAntiGravitySystem.dll] v1.1.0.33
+  
 ### Status
 
 * Issues
@@ -190,6 +203,10 @@
 
 * 2015
 * Released for Kerbal Space Program 1.0.5
+* by ximrm and Tuareg
+
+* Initial release
+* [RoverAntiGravitySystem.dll] v1.0.0.32
 
 ### Status
 
