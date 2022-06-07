@@ -7,8 +7,7 @@ tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 Attributions.md v1.0.7.1
-Lunatic Aeronatutics RoverAntiGravitySystem (LA/RAGS)
-* [Rover Anti Gravity System (RAGS)][RAGS]
+Rover Anti Gravity System (RAGS)
 created: 01 Feb 2022
 updated: 03 Jun 2022
 -->
@@ -16,7 +15,7 @@ updated: 03 Jun 2022
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-3x" style="color: firebrick"></i>
 
-# Lunatic Aeronatutics RoverAntiGravitySystem (LA/RAGS)
+# Rover Anti Gravity System (RAGS)
 
 [Home](./index.md)
 
