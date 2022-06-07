@@ -143,9 +143,14 @@
 
 ## Version 1.1.1.0-release
 
-* 2015
+* 13 Jan 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
+
+### Changes
+
+* Add license.url
+* [RoverAntiGravitySystem.dll] v1.1.1.34
 
 ### Status
 
@@ -155,23 +160,9 @@
 
 ---
 
-## Version 1.1.0.0.release
-
-* 2015
-* Released for Kerbal Space Program 1.0.5
-* by ximrm and Tuareg
-
-### Status
-
-* Issues
-  * updates #26 - Previous Releases
-  * closes #28 - 1.1.0.0.release
-
----
-
 ## Version 1.1.0.0-release
 
-* 2015
+* 05 Jan 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
@@ -201,7 +192,7 @@
 
 ## Version 1.0.0.0-release
 
-* 2015
+* 03 Jan 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
