@@ -81,6 +81,7 @@
 
 * 
 * Released for Kerbal Space Program 1.0.5
+* by ximrm and Tuareg
 
 ### Status
 
