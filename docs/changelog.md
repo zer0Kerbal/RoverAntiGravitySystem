@@ -83,11 +83,52 @@ CC BY-ND 4.0 by zer0Kerbal
   * closes #4 - 1.1.99.0 Create Social Media
 
 
----
+### docs/
 
-## Version 1.1.4.0.release
+* Update
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+* Add
+  * [404.md] v1.0.3.1
+  * [Disclaimer.md] v1.0.0.0
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [PartInvoice.md] v1.1.3.1
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+
+### Previous Release Archive Creation
+
+* Previous Releases
+  * 1.0.0.0-release
+  * 1.1.0.0-release
+  * 1.1.1.0-release
+  * 1.1.2.0-release
+  * 1.1.4.0-release
+* closes #26 - Previous Releases
+* closes #27 - 1.0.0.0-release
+* closes #28 - 1.1.0.0-release
+* closes #29 - 1.1.1.0-release
+* closes #30 - 1.1.2.0-release
+* closes #31 - 1.1.4.0-release
 
 * Nov 24, 2015
+* Released for Kerbal Space Program 1.0.5
+* by ximrm and Tuareg
+
+### Status
+
+* Issues
+  * closes #
+  * updates #
+
+---
+
+## Version 1.1.4.0-release
+
+* 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
@@ -99,7 +140,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 1.1.2.0.release
+## Version 1.1.2.0-release
 
 * 2015
 * Released for Kerbal Space Program 1.0.5
@@ -113,7 +154,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
-## Version 1.1.1.0.release
+## Version 1.1.1.0-release
 
 * 2015
 * Released for Kerbal Space Program 1.0.5
@@ -124,7 +165,6 @@ CC BY-ND 4.0 by zer0Kerbal
 * Issues
   * updates #26 - Previous Releases
   * closes #29 - 1.1.1.0.release
-
 
 ---
 
@@ -140,21 +180,34 @@ CC BY-ND 4.0 by zer0Kerbal
   * updates #26 - Previous Releases
   * closes #28 - 1.1.0.0.release
 
-
 ---
 
-## Version 1.0.0.0.release
+## Version 1.1.0.0-release
 
 * 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
 * Initial release
+* [RoverAntiGravitySystem] v1.0.0.32
 
 ### Status
 
 * Issues
   * updates #26 - Previous Releases
-  * closes #27 - 1.0.0.0.release
+  * closes #28 - 1.1.0.0-release
+
+---
+
+## Version 1.0.0.0-release
+
+* 2015
+* Released for Kerbal Space Program 1.0.5
+
+### Status
+
+* Issues
+  * updates #26 - Previous Releases
+  * closes #27 - 1.0.0.0-release
 
 ---
