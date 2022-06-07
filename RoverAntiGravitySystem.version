@@ -37,6 +37,6 @@
 	"INSTALL_LOC" :
 	{
 		"NAME" :	  "RoverAntiGravitySystem",
-		"DIRECTORY" : "LunaticAeronatutics/RoverAntiGravitySystem"
+		"DIRECTORY" : "LunaticAeronautics/RoverAntiGravitySystem"
 	}
 }
