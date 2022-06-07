@@ -227,6 +227,8 @@
 
 ### Recompile for 1.2.x
 
+* x64 bit only
+
 ### Status
 
 * Issues
@@ -244,6 +246,12 @@
 ### Recompile for 1.1.x
 
 * x64 bit only
+
+* Update
+  * [agmodule.cfg]
+    * [category] from Utility to Control
+    * linting
+    * some light remodeling
 
 ### Status
 
