@@ -1,0 +1,42 @@
+{
+	"NAME"		     : "Lunatic Aeronautics RoverAntiGravitySystem (LA/RAGS)",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/RoverAntiGravitySystem.version",
+	"DOWNLOAD"	     : "https://github.com/zer0Kerbal/RoverAntiGravitySystem/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/changelog.md",
+	"GITHUB" :
+	{
+		"USERNAME"	        : "zer0Kerbal",
+		"REPOSITORY"		: "RoverAntiGravitySystem",
+		"ALLOW_PRE_RELEASE" : false
+	},
+	"VERSION" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 0,
+		"PATCH" : 0,
+		"BUILD" : 0
+	},
+	"KSP_VERSION" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 0,
+		"PATCH" : 5
+	},
+	"KSP_VERSION_MIN" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 0,
+		"PATCH" : 0
+	},
+	"KSP_VERSION_MAX" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 0,
+		"PATCH" : 9999
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "RoverAntiGravitySystem",
+		"DIRECTORY" : "LunaticAeronatutics/RoverAntiGravitySystem"
+	}
+}
