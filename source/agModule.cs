@@ -62,10 +62,10 @@ namespace RoverAntiGravitySystem
         public float GeeEeloo = 1.66f;
 
         [KSPField(isPersistant = true)]
-        public static int selectedCelestial = 0;
+        public int selectedCelestial = 0;
 
         [KSPField(isPersistant = true)]
-        public static double Consumption = 0.5;
+        public float Consumption = 0.5f;
 
         public string[] Celestials = new string[15];
         public float[] Gravities = new float[15];
