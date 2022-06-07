@@ -189,6 +189,7 @@
   * Box003 to buttonRed
 * Add Hotkey (keypad 5)
 * this.myAnimation["switch"].speed = 1 from 5;
+* [RoverAntiGravitySystem.dll] v1.1.0.33
   
 ### Status
 
@@ -205,7 +206,7 @@
 * by ximrm and Tuareg
 
 * Initial release
-* [RoverAntiGravitySystem] v1.0.0.32
+* [RoverAntiGravitySystem.dll] v1.0.0.32
 
 ### Status
 
