@@ -1,5 +1,5 @@
 <!-- readme.md v1.6.8.2
-Lunatic Aeronatutics Rover Anti Gravity System (LA/RAGS)
+Lunatic Aeronautics Rover Anti Gravity System (LA/RAGS)
 created: 17 Jul 2017
 updated: 03 Jun 2022 -->
 
@@ -11,7 +11,7 @@ updated: 03 Jun 2022 -->
 
 
 
-# Lunatic Aeronatutics present *the* Rover Anti Gravity System (LA/RAGS)
+# Lunatic Aeronautics present *the* Rover Anti Gravity System (LA/RAGS)
 
 Not enough traction or are the hills too steep and your rover doesn't have the power to climb them up?
 
@@ -151,7 +151,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/changelog.md  "Changelog"
 [MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
 [MOD:discu]: https://github.com/zer0Kerbal/RoverAntiGravitySystem/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/192742-*/ "RoverAntiGravitySystem Forum Thread"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/ "RoverAntiGravitySystem Forum Thread"
 [MOD:issue]: https://github.com/zer0Kerbal/RoverAntiGravitySystem/issues "Issues"
 [MOD:licns]: https://github.com/zer0Kerbal/RoverAntiGravitySystem/blob/master/LICENSE "Github License"
 [MOD:notic]: https://zer0kerbal.github.io/RoverAntiGravitySystem/Notices "GitHub Pages"
@@ -210,7 +210,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 [LAL]: https://github.com/zer0Kerbal/LunaticAeronauticsLtd "Lunatic Aeronautics Ltd (LA/L)"
 [KMAS]: https://github.com/zer0Kerbal/KMAS "Lunatic Aeronautics K-MAS"
-[RAGS]: https://github.com/zer0Kerbal/RoverAntiGravitySystem "Rover Anti Gravity System"
+[RAGS]: https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/ "Rover Anti Gravity System"
 [LAAGR]: https://github.com/zer0Kerbal/AntiGravRoom "Lunatic Aeronautics Anti Grav Room"
 
 <!-- financial support -->
