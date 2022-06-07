@@ -26,7 +26,7 @@ updated: 18 Apr 2022 -->
 >
 > Sadly our scientist were not able to solve the problem of conflicting with engine electronics.
 
-* Lunatic Aeronatutics
+* Lunatic Aeronautics
   * [Lunatic Aeronautics Ltd (LA/L)][LAL]
   * [Lunatic Aeronautics Anti Grav Room (LAAGR)][LAAGR]
   * [Lunatic Aeronautics K-Mas (KMAS)][KMAS]
@@ -40,33 +40,33 @@ You should be all good! (check for latest version on CurseForge)
 
 ### If Downloaded from CurseForge/OverWolf manual download
 
-To install, place the `LunaticAeronatutics` folder inside your Kerbal Space Program's GameData folder:
+To install, place the `LunaticAeronautics` folder inside your Kerbal Space Program's GameData folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**, including any other fork:
-  * Delete `<KSP_ROOT>/GameData/LunaticAeronatutics/RoverAntiGravitySystem`
-* Extract the package's `LunaticAeronatutics` folder into your KSP's GameData folder as follows:
-  * `<PACKAGE>/LunaticAeronatutics` --> `<KSP_ROOT>/GameData/LunaticAeronatutics`
+  * Delete `<KSP_ROOT>/GameData/LunaticAeronautics/RoverAntiGravitySystem`
+* Extract the package's `LunaticAeronautics` folder into your KSP's GameData folder as follows:
+  * `<PACKAGE>/LunaticAeronautics` --> `<KSP_ROOT>/GameData/LunaticAeronautics`
     * Overwrite any preexisting folder/file(s).
-  * you should end up with `<KSP_ROOT>/GameData/LunaticAeronatutics/RoverAntiGravitySystem`
+  * you should end up with `<KSP_ROOT>/GameData/LunaticAeronautics/RoverAntiGravitySystem`
 
 ### If Downloaded from SpaceDock / GitHub / other
 
 To install, place the GameData folder inside your Kerbal Space Program folder:
 
 * **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**, including any other fork:
-  * Delete `<KSP_ROOT>/GameData/LunaticAeronatutics/RoverAntiGravitySystem`
+  * Delete `<KSP_ROOT>/GameData/LunaticAeronautics/RoverAntiGravitySystem`
 * Extract the package's `GameData` folder into your KSP's root folder as follows:
   * `<PACKAGE>/GameData` --> `<KSP_ROOT>`
     * Overwrite any preexisting file.
-  * you should end up with `<KSP_ROOT>/LunaticAeronatutics/GameData/RoverAntiGravitySystem`
+  * you should end up with `<KSP_ROOT>/LunaticAeronautics/GameData/RoverAntiGravitySystem`
 
 ## The following file layout must be present after installation
 
 ```markdown
 <KSP_ROOT>
   + [GameData]
-    + [LunaticAeronatutics]
-      + [LunaticAeronatuticsLtd]
+    + [LunaticAeronautics]
+      + [LunaticAeronauticsLtd]
         + [Agencies]
           ...
         + [Flags]
@@ -94,6 +94,6 @@ To install, place the GameData folder inside your Kerbal Space Program folder:
 
 ### Dependencies
 
-* [Lunatic Aeronatutics Ltd (LA/L)][LAL]
+* [Lunatic Aeronautics Ltd (LA/L)][LAL]
 
-[LAL]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/ "Lunatic Aeronatutics Ltd (LAL)"
+[LAL]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/ "Lunatic Aeronautics Ltd (LAL)"
