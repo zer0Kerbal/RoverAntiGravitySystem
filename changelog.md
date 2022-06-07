@@ -115,9 +115,32 @@
 
 ## Version 1.1.4.0-release
 
-* 2015
+* 25 Nov 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
+
+* Add
+  * Compatibility
+    * [ActiveTextureManager.cfg] v1.0.0.0
+* Convert
+  * [agr-moremetall-diff] from .png to .dds
+  * [green.png] from 8x8 to 4x4
+  * [red.png] from 8x8 to 4x4
+* Note: do not convert the png's
+* Code
+  * [RoverAntiGravitySystem.dll] v1.1.4.36
+* Update
+  * [agModule.cfg]
+    * [crashTolerance] from 1 to 11
+    * [maxTemp] from 300 to 1650
+    * [bulkheadProfiles] = size0
+    * [minimum_drag] from 0.2 to 0.1
+    * [mass] from 0.2 to 0.045
+    * [description] add "Can't change atmospheric influences. Only to be used on rovers!"
+    * [title] correct case
+    * [manufacturer] correct manufacturer's name
+    * [TechRequired] from composites to specializedElectrics
+    * [cost] from 16 to 2600
 
 ### Status
 
@@ -129,9 +152,24 @@
 
 ## Version 1.1.2.0-release
 
-* 2015
+* 01 Feb 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
+
+### Update
+
+* [agModule.cfg]
+  * [node_stack_bottom] from 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0 to 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0
+  * [category] from Structural to Utility
+  * [mass] from 1 to 0.2
+  * [attachRules] from 1,1,1,1,0 to 1,1,1,0,0
+
+### Code
+
+* Changes
+  * from [public static int selectedCelestial = 0;] to [public int selectedCelestial = 0;]
+  * from [public static double Consumption = 0.5;] to [public float Consumption = 0.5f;]
+* [RoverAntiGravitySystem.dll] v1.1.2.35
 
 ### Status
 
