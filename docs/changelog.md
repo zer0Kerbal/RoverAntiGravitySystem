@@ -142,9 +142,24 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ## Version 1.1.2.0-release
 
-* 2015
+* 01 Feb 2015
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
+
+### Update
+
+* [agModule.cfg]
+  * [node_stack_bottom] from 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0 to 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0
+  * [category] from Structural to Utility
+  * [mass] from 1 to 0.2
+  * [attachRules] from 1,1,1,1,0 to 1,1,1,0,0
+
+### Code
+
+* Changes
+  * from [public static int selectedCelestial = 0;] to [public int selectedCelestial = 0;]
+  * from [public static double Consumption = 0.5;] to [public float Consumption = 0.5f;]
+* [RoverAntiGravitySystem.dll] v1.1.2.35
 
 ### Status
 
