@@ -1,0 +1,19 @@
+# Lunatic Aeronatutics
+
+* Anti Grav Room (LAAGR)
+* Rover Anti Gravity System (RAGS)
+* K-Mas (KMAS) formerly XMAS
+
+## by ximrm and Tuareg 
+
+this archive has been modified:
+* structure
+* part configs modified to reflect folder structure changes
+* contents removed
+  * MACOS files
+  * plugins (TweakScale, ModuleManager, et al)
+  * not a comprehensive list, omissions from this list are not intentional
+* contents added
+  * this readme.txt
+  * .version file
+* by zer0Kerbal
