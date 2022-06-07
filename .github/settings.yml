@@ -17,7 +17,7 @@ repository:
   description: And an other new release from your Lunatic scientists! Theeeee Rover gravity manipulator! A module to manipulate the gravity affecting your rover. You can choose which planet or moon settings you want to apply, turn it on and flyyyyyyyyyy. Sadly our scientist were not able to solve the problem of conflicting with engine electronics. For Kerbal Space Program.
 
   # A URL with more information about the repository
-  # homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*/
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/
 
   # A comma-separated list of topics to set on the repository
   topics: anti-grav,antigrav,rags,roverlunatic-aeronautics,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,zedk,ximrm,tuareg
