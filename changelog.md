@@ -10,7 +10,7 @@
 | spacedock  | (https://spacedock.info/mod/)                                       |
 | ckan       | RoverAntiGravitySystem                                              |
 
-## Version 1.1.99.0-adoption `<EDITION>` edition
+## Version 1.2.99.0-adoption `<EDITION>` edition
 
 * 15 Jun 2022
 * Released for Kerbal Space Program 1.12.x
@@ -29,21 +29,10 @@
   * closes #24 - Part Localization
   * closes #25 - Code Localization
 
-### docs/
+### Recompile for 1.12.x
 
-* Update
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
-* Add
-  * [404.md] v1.0.3.1
-  * [Disclaimer.md] v1.0.0.0
-  * [LegalMumboJumbo.md] v1.0.5.0
-  * [Localizations.md] v1.1.3.1
-  * [Marketing.md] v1.0.0.0
-  * [Notices.md] v1.0.0.0
-  * [PartInvoice.md] v1.1.3.1
-  * [Why.md] v1.1.0.0
-  * [_config.yml]
+* updates #38 - Recompile for major KSP version
+* closes #50 - KSP 1.12.x
 
 ### Previous Release Archive Creation
 
@@ -60,16 +49,6 @@
 * closes #30 - 1.1.2.0.release
 * closes #31 - 1.1.4.0.release
 
-
-### Status
-
-* Issues
-  * closes #1 - Rover Anti Gravity System (RAGS) 1.1.99.0-adoption <NAME>
-  * closes #2 - 1.1.99.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 1.1.99.0 Create Documentation
-  * closes #4 - 1.1.99.0 Create Social Media
-
-
 ### docs/
 
 * Update
@@ -86,30 +65,191 @@
   * [Why.md] v1.1.0.0
   * [_config.yml]
 
-### Previous Release Archive Creation
+### Status
 
-* Previous Releases
-  * 1.0.0.0-release
-  * 1.1.0.0-release
-  * 1.1.1.0-release
-  * 1.1.2.0-release
-  * 1.1.4.0-release
-* closes #26 - Previous Releases
-* closes #27 - 1.0.0.0-release
-* closes #28 - 1.1.0.0-release
-* closes #29 - 1.1.1.0-release
-* closes #30 - 1.1.2.0-release
-* closes #31 - 1.1.4.0-release
+* Issues
+  * closes #1 - Rover Anti Gravity System (RAGS) 1.2.99.0-adoption <NAME>
+  * closes #2 - 1.2.99.0 Verify Legal Mumbo Jumbo
+  * closes #3 - 1.2.99.0 Create Documentation
+  * closes #4 - 1.2.99.0 Create Social Media
 
-* Nov 24, 2015
-* Released for Kerbal Space Program 1.0.5
-* by ximrm and Tuareg
+---
+
+## Version 1.2.5.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.11.x
+* by zer0Kerbal
+
+### Recompile for 1.11.x
 
 ### Status
 
 * Issues
-  * closes #
-  * updates #
+  * closes #49 - KSP 1.11.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.2.4.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.10.x
+* by zer0Kerbal
+
+### Recompile for 1.10.x
+
+### Status
+
+* Issues
+  * closes #48 - KSP 1.10.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.2.3.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.9.x
+* by zer0Kerbal
+
+### Recompile for 1.9.x
+
+### Status
+
+* Issues
+  * closes #47 - KSP 1.9.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.2.2.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.8.x
+* by zer0Kerbal
+
+### Recompile for 1.8.x
+
+### Status
+
+* Issues
+  * closes #46 - KSP 1.8.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.2.1.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.7.x
+* by zer0Kerbal
+
+### Recompile for 1.7.x
+
+### Status
+
+* Issues
+  * closes #45 - KSP 1.7.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.2.0.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.6.x
+* by zer0Kerbal
+
+### Recompile for 1.6.x
+
+### Status
+
+* Issues
+  * closes #44 - KSP 1.6.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.1.9.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.5.x
+* by zer0Kerbal
+
+### Recompile for 1.5.x
+
+### Status
+
+* Issues
+  * closes #43 - KSP 1.5.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.1.8.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.4.x
+* by zer0Kerbal
+
+### Recompile for 1.4.x
+
+### Status
+
+* Issues
+  * closes #42 - KSP 1.4.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.1.7.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.3.x
+* by zer0Kerbal
+
+### Recompile for 1.3.x
+
+### Status
+
+* Issues
+  * closes #41 - KSP 1.3.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.1.6.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.2.x
+* by zer0Kerbal
+
+### Recompile for 1.2.x
+
+### Status
+
+* Issues
+  * closes #40 - KSP 1.2.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
+## Version 1.1.5.0-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.1.x
+* by zer0Kerbal
+
+### Recompile for 1.1.x
+
+* x64 bit only
+
+### Status
+
+* Issues
+  * closes #39 - KSP 1.1.x
+  * updates #38 - Recompile for major KSP version
 
 ---
 
