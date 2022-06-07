@@ -9,7 +9,7 @@ updated: 03 Jun 2022 -->
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][CKAN:url]   
 [![Pages][MOD:pages:shd]][MOD:pages]
 
-
+Get better control over your Rover by switching the gravitational influence to another celestial body.
 
 # Lunatic Aeronautics present *the* Rover Anti Gravity System (LA/RAGS)
 
