@@ -253,6 +253,7 @@ CC BY-ND 4.0 by zer0Kerbal
 * Update
   * CS1061 error
     * .findWorldCenterOfMass() --> .COMD
+* closes #55 - CS1061: findWorldCenterOfMass
 * [RoverAntiGravitySystem.dll] v1.1.6.67
 
 ### Status
@@ -285,6 +286,8 @@ CC BY-ND 4.0 by zer0Kerbal
   * CS1061 error
     * .renderer.material --> GetComponent<Renderer>
     * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
+* closes #53 - CS1061: Renderer
+* closes #54 - CS1061: Rigidbody
 * [RoverAntiGravitySystem.dll] v1.1.5.36
 
 ### Status
