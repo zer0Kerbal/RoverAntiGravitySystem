@@ -239,9 +239,8 @@
 
 * Update
   * CS1061 error
-    * .renderer.material --> GetComponent<Renderer>
-    * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
-* [RoverAntiGravitySystem.dll] v1.1.4.36
+    * .findWorldCenterOfMass() --> .COMD
+* [RoverAntiGravitySystem.dll] v1.1.6.67
 
 ### Status
 
@@ -273,7 +272,7 @@
   * CS1061 error
     * .renderer.material --> GetComponent<Renderer>
     * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
-* [RoverAntiGravitySystem.dll] v1.1.4.36
+* [RoverAntiGravitySystem.dll] v1.1.5.36
 
 ### Status
 
