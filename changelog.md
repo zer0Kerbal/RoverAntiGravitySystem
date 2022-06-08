@@ -229,6 +229,20 @@
 
 * x64 bit only
 
+* Update
+  * [agmodule.cfg]
+    * [category] from Utility to Control
+    * linting
+    * some light remodeling
+
+### Code
+
+* Update
+  * CS1061 error
+    * .renderer.material --> GetComponent<Renderer>
+    * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
+* [RoverAntiGravitySystem.dll] v1.1.4.36
+
 ### Status
 
 * Issues
