@@ -49,14 +49,14 @@
     <Reference Include="K:\12\KSP_Data\Managed\Assembly-UnityScript-firstpass.dll">
       <Private>False</Private>
     </Reference> -->
-    <Reference Include="K:\12\KSP_Data\Managed\Assembly-CSharp.dll">
+    <Reference Include="K:\13\KSP_Data\Managed\Assembly-CSharp.dll">
     <!-- <Reference Include="$(K112)\KSP_Data\Managed\Assembly-CSharp.dll"> -->
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\12\KSP_Data\Managed\Assembly-CSharp-firstpass.dll">
+    <Reference Include="K:\13\KSP_Data\Managed\Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\12\KSP_Data\Managed\UnityEngine.dll">
+    <Reference Include="K:\13\KSP_Data\Managed\UnityEngine.dll">
       <Private>False</Private>
     </Reference>
     <!-- <Reference Include="K:\11\KSP_Data\Managed\UnityEngine.UI.dll">
