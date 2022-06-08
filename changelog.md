@@ -211,6 +211,24 @@
 
 ### Recompile for 1.3.x
 
+* x64 bit only
+* released for KSP 1.3.x
+* KSP minimum version updated to 1.3.0
+
+* Update
+  * [agmodule.cfg]
+    * [category] from Utility to Control
+    * linting
+    * some light remodeling
+
+### Code
+
+* Update
+  * CS1061 error
+    * .findWorldCenterOfMass() --> .COMD
+* closes #55 - CS1061: findWorldCenterOfMass
+* [RoverAntiGravitySystem.dll] v1.1.7.
+
 ### Status
 
 * Issues
