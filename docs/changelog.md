@@ -242,6 +242,19 @@ CC BY-ND 4.0 by zer0Kerbal
 
 * x64 bit only
 
+* Update
+  * [agmodule.cfg]
+    * [category] from Utility to Control
+    * linting
+    * some light remodeling
+
+### Code
+
+* Update
+  * CS1061 error
+    * .findWorldCenterOfMass() --> .COMD
+* [RoverAntiGravitySystem.dll] v1.1.6.67
+
 ### Status
 
 * Issues
@@ -272,7 +285,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * CS1061 error
     * .renderer.material --> GetComponent<Renderer>
     * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
-* [RoverAntiGravitySystem.dll] v1.1.4.36
+* [RoverAntiGravitySystem.dll] v1.1.5.36
 
 ### Status
 
