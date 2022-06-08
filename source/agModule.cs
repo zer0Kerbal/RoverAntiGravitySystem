@@ -120,8 +120,10 @@ namespace RoverAntiGravitySystem
 
             isOn = false;
 
-            this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
-            this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+            //this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
+            //this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+            this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+            this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
         }
 
         public override void OnActive()
@@ -171,8 +173,10 @@ namespace RoverAntiGravitySystem
                 this.myAnimation["switch"].speed = 1;
                 this.myAnimation.Play("switch");
 
-                this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.green);
-                this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.black);
+                //this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.green);
+                //this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
 
                 isSwitching = false;
             }
@@ -182,8 +186,10 @@ namespace RoverAntiGravitySystem
                 this.myAnimation["switch"].speed = -1;
                 this.myAnimation.Play("switch");
 
-                this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
-                this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+                //this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
+                //this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
 
                 isSwitching = false;
             }
@@ -215,8 +221,10 @@ namespace RoverAntiGravitySystem
             {
                 this.myAnimation["switch"].time = 0;
 
-                this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
-                this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+                //this.gameObject.GetChild("buttonGreen").renderer.material.SetColor("_EmissiveColor", Color.black);
+                //this.gameObject.GetChild("buttonRed").renderer.material.SetColor("_EmissiveColor", Color.red);
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
             }
         }
 
