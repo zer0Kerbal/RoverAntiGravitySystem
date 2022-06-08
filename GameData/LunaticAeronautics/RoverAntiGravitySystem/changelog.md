@@ -253,6 +253,13 @@
     * linting
     * some light remodeling
 
+### Code
+
+* Update
+  * CS1061 error
+    * .renderer.material --> GetComponent<Renderer>
+    * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
+
 ### Status
 
 * Issues
