@@ -205,10 +205,19 @@ namespace RoverAntiGravitySystem
                 {
                     if (this.part.RequestResource("ElectricCharge", Consumption) >= Consumption)
                     {
-                        this.vessel.rigidbody.AddForceAtPosition(-FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
-                        this.vessel.rigidbody.AddForceAtPosition(-FlightGlobals.getCentrifugalAcc(this.vessel.findWorldCenterOfMass(), this.vessel.mainBody) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+                        // this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
 
-                        this.vessel.rigidbody.AddForceAtPosition(FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()).normalized * gravity * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+                        Rigidbody vs = this.vessel.GetComponent<Rigidbody>(); ;
+                        
+                        vs.AddForceAtPosition(-FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+                        vs.AddForceAtPosition(-FlightGlobals.getCentrifugalAcc(this.vessel.findWorldCenterOfMass(), this.vessel.mainBody) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+                        
+                        vs.AddForceAtPosition(FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()).normalized * gravity * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+
+                        //    this.vessel.rigidbody.AddForceAtPosition(-FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+                        //    this.vessel.rigidbody.AddForceAtPosition(-FlightGlobals.getCentrifugalAcc(this.vessel.findWorldCenterOfMass(), this.vessel.mainBody) * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
+
+                        //    this.vessel.rigidbody.AddForceAtPosition(FlightGlobals.getGeeForceAtPosition(this.vessel.findWorldCenterOfMass()).normalized * gravity * this.vessel.GetTotalMass(), this.vessel.findWorldCenterOfMass());
                     }
                     else
                     {
