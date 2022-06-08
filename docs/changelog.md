@@ -30,17 +30,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Adoption
 
-### Localization
 
-* Create
-  * Localization/
-    * <en-us.cfg>
-    * [readme.md] v2.1.1.0
-    * [quickstart.md] v1.0.1.0
-  * updates #5 - Localization - Master
-  * closes #6 - English <us-en.cfg>
-  * closes #24 - Part Localization
-  * closes #25 - Code Localization
 
 ### Recompile for 1.12.x
 
@@ -216,6 +206,58 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ---
 
+## Version 1.1.7.5-release
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.3.x
+* by zer0Kerbal
+
+### Recompile for 1.3.x
+
+* x64 bit only
+* Away With Words - Localization
+
+* Update
+  * [agmodule.cfg]
+
+### Code
+
+* Update
+  * Localization
+* [RoverAntiGravitySystem.dll] v1.1.7.
+
+### Localization
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.1.0
+    * [quickstart.md] v1.0.1.0
+* Part
+  * create agency
+  * run localizer
+* Parts to localize
+  * [agmodule.cfg]
+* Code
+  * settings
+  * GUI
+  * screen
+  * PAW
+  * InstallChecker
+  * scrap KSP dictionary
+  * updates #5 - Localization - Master
+  * closes #6 - English <us-en.cfg>
+  * closes #24 - Part Localization
+  * closes #25 - Code Localization
+
+### Status
+
+* Issues
+  * closes #41 - KSP 1.3.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.1.7.0-release
 
 * 7 Jun, 2022
@@ -224,10 +266,23 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Recompile for 1.3.x
 
+* x64 bit only
+* released for KSP 1.3.x
+* KSP minimum version updated to 1.3.0
+
+### Code
+
+* Rename
+  * [agModule.cs] to [RoverAntiGravitySystemModule.cs]
+  * [nextGravitySetupEvent] to [NextGravitySetupEvent]
+  * [prevGravitySetupEvent] to [prevGravitySetupEvent]
+  * [onSwitch] to [OnSwitch]
+* [RoverAntiGravitySystem.dll] v1.1.7.68
+
 ### Status
 
 * Issues
-  * closes #41 - KSP 1.3.x
+  * updates #41 - KSP 1.3.x
   * updates #38 - Recompile for major KSP version
 
 ---

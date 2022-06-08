@@ -8,7 +8,7 @@ using KSP.UI.Screens;
 
 namespace RoverAntiGravitySystem
 {
-    public class agModule : PartModule
+    public class RoverAntiGravitySystemModule : PartModule
     {
         [KSPField(isPersistant = false)]
         public float GeeMoho = 2.59f;
@@ -112,8 +112,8 @@ namespace RoverAntiGravitySystem
 
             gravity = Gravities[selectedCelestial];
 
-            Events["nextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            Events["prevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
+            Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
+            Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             myAnimation = this.part.GetComponentInChildren<Animation>();
             this.myAnimation["switch"].wrapMode = WrapMode.Once;
@@ -235,35 +235,35 @@ namespace RoverAntiGravitySystem
         }
 
         [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Next: Moho.")]
-        public void nextGravitySetupEvent()
+        public void NextGravitySetupEvent()
         {
             selectedCelestial++;
 
             if (selectedCelestial > 14)
                 selectedCelestial = 0;
 
-            Events["nextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            Events["prevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
+            Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
+            Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             gravity = Gravities[selectedCelestial];
         }
 
         [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Prev: Eeloo.")]
-        public void prevGravitySetupEvent()
+        public void PrevGravitySetupEvent()
         {
             selectedCelestial--;
 
             if (selectedCelestial < 0)
                 selectedCelestial = 14;
 
-            Events["nextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            Events["prevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
+            Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
+            Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             gravity = Gravities[selectedCelestial];
         }
 
         [KSPEvent(guiActive = true, guiActiveUnfocused = false, guiActiveEditor = false, guiName = "Toggle anti-gravity")]
-        public void onSwitch()
+        public void OnSwitch()
         {
             isOn = !isOn;
             isSwitching = true;
