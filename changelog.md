@@ -227,6 +227,11 @@
   * CS1061 error
     * .findWorldCenterOfMass() --> .COMD
 * closes #55 - CS1061: findWorldCenterOfMass
+* Rename
+  * [agModule.cs] to [RoverAntiGravitySystemModule.cs]
+  * [nextGravitySetupEvent] to [NextGravitySetupEvent]
+  * [prevGravitySetupEvent] to [prevGravitySetupEvent]
+  * [onSwitch] to [OnSwitch]
 * [RoverAntiGravitySystem.dll] v1.1.7.
 
 ### Status
