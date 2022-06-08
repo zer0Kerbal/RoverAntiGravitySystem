@@ -266,6 +266,14 @@ CC BY-ND 4.0 by zer0Kerbal
     * linting
     * some light remodeling
 
+### Code
+
+* Update
+  * CS1061 error
+    * .renderer.material --> GetComponent<Renderer>
+    * this.vessel.rigidbody. --> Rigidbody vs = this.vessel.GetComponent<Rigidbody>();
+* [RoverAntiGravitySystem.dll] v1.1.4.36
+
 ### Status
 
 * Issues
