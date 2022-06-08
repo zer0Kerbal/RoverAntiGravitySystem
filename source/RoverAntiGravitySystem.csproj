@@ -43,35 +43,44 @@
     <RootNamespace>RoverAntiGravitySystem</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <!-- <Reference Include="$(K10)\KSP_Data\Managed\*.dll">
+    <!-- <Reference Include="K:\11\KSP_Data\Managed\Assembly-UnityScript.dll">
       <Private>False</Private>
     </Reference> -->
-    <Reference Include="K:\10\KSP_Data\Managed\Assembly-UnityScript.dll">
+    <Reference Include="K:\11\KSP_Data\Managed\Assembly-UnityScript-firstpass.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\10\KSP_Data\Managed\Assembly-UnityScript-firstpass.dll">
+    <Reference Include="K:\11\KSP_Data\Managed\Assembly-CSharp.dll">
+    <!-- <Reference Include="$(K112)\KSP_Data\Managed\Assembly-CSharp.dll"> -->
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\10\KSP_Data\Managed\Assembly-CSharp.dll">
-    <!-- <Reference Include="$(K112)\KSP_x64_Data\Managed\Assembly-CSharp.dll"> -->
+    <Reference Include="K:\11\KSP_Data\Managed\Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\10\KSP_Data\Managed\Assembly-CSharp-firstpass.dll">
+    <Reference Include="K:\11\KSP_Data\Managed\UnityEngine.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\10\KSP_Data\Managed\UnityEngine.dll">
+    <!-- <Reference Include="K:\11\KSP_Data\Managed\UnityEngine.UI.dll">
+      <Private>False</Private>
+    </Reference> -->
+    <!-- <Reference Include="K:\11\KSP_Data\Managed\KSPAssets.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\10\KSP_Data\Managed\UnityEngine.UI.dll">
+    <Reference Include="K:\11\KSP_Data\Managed\KSPCore.dll">
+      <Private>False</Private>
+    </Reference> -->
+    <Reference Include="K:\11\KSP_Data\Managed\KSPUtil.dll">
       <Private>False</Private>
     </Reference>
-    <!-- <Reference Include="Microsoft.CSharp" /> -->
+    <Reference Include="K:\11\KSP_Data\Managed\Vectrosity.dll">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
-    <!-- <Reference Include="System.Core" />
+    <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" /> -->
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="agModule.cs" />
