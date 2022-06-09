@@ -5,6 +5,7 @@ using System.Text;
 using UnityEngine;
 using KSP;
 using KSP.UI.Screens;
+using KSP.Localization;
 
 namespace RoverAntiGravitySystem
 {
@@ -76,21 +77,40 @@ namespace RoverAntiGravitySystem
         {
             base.OnStart(state);
 
-            Celestials[0] = "Moho";
-            Celestials[1] = "Eve";
-            Celestials[2] = "Gilly";
-            Celestials[3] = "Kerbin";
-            Celestials[4] = "Mun";
-            Celestials[5] = "Minmus";
-            Celestials[6] = "Duna";
-            Celestials[7] = "Ike";
-            Celestials[8] = "Dres";
-            Celestials[9] = "Laythe";
-            Celestials[10] = "Vall";
-            Celestials[11] = "Tylo";
-            Celestials[12] = "Bop";
-            Celestials[13] = "Pol";
-            Celestials[14] = "Eeloo";
+            Celestials[0] = Localizer.Format("#autoLOC_910051"); // Moho^N
+            Celestials[1] = Localizer.Format("#autoLOC_910049"); // Eve^N
+            Celestials[2] = Localizer.Format("#autoLOC_910037"); // Gilly^N
+            Celestials[3] = Localizer.Format("#autoLOC_910048"); // Kerbin^N
+            Celestials[4] = Localizer.Format("#autoLOC_910035"); // The Mun^N
+            Celestials[5] = Localizer.Format("#autoLOC_910033"); // Minmus^N
+            Celestials[6] = Localizer.Format("#autoLOC_910045"); // Duna^N
+            Celestials[7] = Localizer.Format("#autoLOC_910031"); // Ike^N
+            Celestials[8] = Localizer.Format("#autoLOC_910043"); // Dres^N
+            Celestials[9] = Localizer.Format("#autoLOC_910029"); // Laythe^N
+            Celestials[10] = Localizer.Format("#autoLOC_910027"); // Vall^N
+            Celestials[11] = Localizer.Format("#autoLOC_910025"); // Tylo^N
+            Celestials[12] = Localizer.Format("#autoLOC_910023"); // Bop^N
+            Celestials[13] = Localizer.Format("#autoLOC_910021"); // Pol^N
+            Celestials[14] = Localizer.Format("#autoLOC_910039"); // Eeloo^N
+            
+            // Localizer.Format("#autoLOC_910041"); // Jool^N
+            // Localizer.Format("#autoLOC_910053"); // The Sun^N
+
+            //Celestials[0] = "Moho";
+            //Celestials[1] = "Eve";
+            //Celestials[2] = "Gilly";
+            //Celestials[3] = "Kerbin";
+            //Celestials[4] = "Mun";
+            //Celestials[5] = "Minmus";
+            //Celestials[6] = "Duna";
+            //Celestials[7] = "Ike";
+            //Celestials[8] = "Dres";
+            //Celestials[9] = "Laythe";
+            //Celestials[10] = "Vall";
+            //Celestials[11] = "Tylo";
+            //Celestials[12] = "Bop";
+            //Celestials[13] = "Pol";
+            //Celestials[14] = "Eeloo";
 
             Gravities[0] = GeeMoho;
             Gravities[1] = GeeEve;
@@ -112,8 +132,12 @@ namespace RoverAntiGravitySystem
 
             gravity = Gravities[selectedCelestial];
 
-            Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
+            Events["NextGravitySetupEvent"].guiName = Localizer.Format("#RAGS-NextGravSetup", Celestials[selectedCelestial], (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]));
+            Events["PrevGravitySetupEvent"].guiName = Localizer.Format("#RAGS-PrevGravSetup", Celestials[selectedCelestial], (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]));
+            
+            // #RAGS-NextGravSetup = Current <b><<1>></b>. Next: <b><<2>></b>.
+            //Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
+            //Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             myAnimation = this.part.GetComponentInChildren<Animation>();
             this.myAnimation["switch"].wrapMode = WrapMode.Once;
