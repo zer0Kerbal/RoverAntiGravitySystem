@@ -123,7 +123,7 @@ namespace <#= PROJECT_NAME #>
         public const string Text = Number + "-zed'K BETA DEBUG";
 #else
         public const string Text = Number + "-zed'K";
-		public const string SText = Number;
 #endif
+		public const string SText = Number;
 	}
 }
