@@ -27,7 +27,7 @@ title="GitHub IO" alt="Pages" /></a></p>
 <h1 id="version-1175-release---away-with-words-edition">Version
 1.1.7.5-release - <code>&lt;Away With Words&gt;</code> edition</h1>
 <ul>
-<li>07 Jun 2022</li>
+<li>13 Jun 2022</li>
 <li>Release for Kerbal Space Program [KSP 1.3.x]</li>
 <li>by zer0Kerbal</li>
 </ul>
@@ -37,26 +37,121 @@ title="GitHub IO" alt="Pages" /></a></p>
 <h2 id="changes">Changes</h2>
 <h3 id="recompile-for-13x">Recompile for 1.3.x</h3>
 <ul>
-<li>x64 bit only</li>
-<li>released for KSP 1.3.x</li>
-<li>KSP minimum version updated to 1.3.0</li>
+<li><p>x64 bit only</p></li>
+<li><p>Away With Words - Localization</p></li>
+<li><p>Update</p></li>
+<li><p>Rename</p>
+<ul>
+<li>[agmodule.cfg] to [roverantigrav.cfg]
+<ul>
+<li>[agModule] to [RoverAntiGravitySystemModule]</li>
+<li>[title] from #RAGS-agmodul-titl to #RAGS-titl</li>
+<li>[description] = #RAGS-agmodul-desc to #RAGS-desc</li>
+<li>[tags] from #RAGS-agmodul-tags to #RAGS-tags</li>
+</ul></li>
+</ul></li>
 </ul>
 <h3 id="code">Code</h3>
 <ul>
-<li>Rename
+<li>Update
 <ul>
-<li>[agModule.cs] to [RoverAntiGravitySystemModule.cs]</li>
-<li>[nextGravitySetupEvent] to [NextGravitySetupEvent]</li>
-<li>[prevGravitySetupEvent] to [prevGravitySetupEvent]</li>
-<li>[onSwitch] to [OnSwitch]</li>
+<li>Localization</li>
+<li>tightening white space</li>
+<li>tightening if's, suggested by @Lisias
+<ul>
+<li>combine several nested if's into one</li>
+<li>if (isOn &amp;&amp; isSwitching)</li>
+<li>if (isOn &amp;&amp; !thereIsAnEngine)</li>
 </ul></li>
-<li>[RoverAntiGravitySystem.dll] v1.1.7.68</li>
+<li>Color.green -&gt; Color.black (line 147)</li>
+<li>Color.red -&gt; Color.black (line 148)</li>
+</ul></li>
+<li>[RoverAntiGravitySystem.dll] v1.1.7.</li>
+<li>[Consumption]
+<ul>
+<li>change from float to <em>readonly double</em></li>
+<li>should this scale with the mass of the rover?</li>
+</ul></li>
+<li>Move array construction out of
+<ul>
+<li>[OnStart]</li>
+<li>into:
+<ul>
+<li>[GetGravities]</li>
+<li>[GetCelestials]</li>
+</ul></li>
+</ul></li>
+<li>Add
+<ul>
+<li>GetInfo()
+<ul>
+<li>localized</li>
+</ul></li>
+<li>RateString();
+<ul>
+<li>localized</li>
+</ul></li>
+</ul></li>
+<li>closes #64 - Add GetInfo()</li>
+<li>closes #63 - localize code</li>
+</ul>
+<h3 id="localization">Localization</h3>
+<ul>
+<li>Create
+<ul>
+<li>Localization/
+<ul>
+<li>&lt;en-us.cfg&gt;</li>
+<li>[readme.md] v2.1.1.0</li>
+<li>[quickstart.md] v1.0.1.0</li>
+</ul></li>
+</ul></li>
+<li>Part
+<ul>
+<li>create agency</li>
+<li>run localizer</li>
+</ul></li>
+<li>Parts to localize
+<ul>
+<li>[agmodule.cfg]</li>
+</ul></li>
+<li>Code
+<ul>
+<li>settings</li>
+<li>GUI</li>
+<li>screen</li>
+<li>PAW</li>
+<li>InstallChecker</li>
+<li>scrap KSP dictionary</li>
+<li>updates #5 - Localization - Master</li>
+<li>closes #6 - English &lt;us-en.cfg&gt;</li>
+<li>closes #24 - Part Localization</li>
+<li>closes #25 - Code Localization</li>
+</ul></li>
+</ul>
+<h3 id="docs">docs/</h3>
+<ul>
+<li>Add
+<ul>
+<li>[ManualInstallation.md] v1.1.7.0</li>
+<li>[Attribution.md] v1.0.6.0</li>
+<li>[404.md] v1.0.3.1</li>
+<li>[Disclaimer.md] v1.0.0.0</li>
+<li>[LegalMumboJumbo.md] v1.0.5.0</li>
+<li>[Localizations.md] v1.1.3.1</li>
+<li>[Marketing.md] v1.0.0.0</li>
+<li>[Notices.md] v1.0.0.0</li>
+<li>[PartInvoice.md] v1.1.3.1</li>
+<li>[Why.md] v1.1.0.0</li>
+<li>[_config.yml]</li>
+</ul></li>
+<li>closes #71 - docs/</li>
 </ul>
 <h3 id="status">Status</h3>
 <ul>
 <li>Issues
 <ul>
-<li>updates #41 - KSP 1.3.x</li>
+<li>closes #41 - KSP 1.3.x</li>
 <li>updates #38 - Recompile for major KSP version</li>
 </ul></li>
 </ul>
@@ -79,7 +174,7 @@ title="Issue Tracker">Known Issues</a></li>
 href="https://zer0kerbal.github.io/RoverAntiGravitySystem/"
 title="GitHub Pages">Pages</a></li>
 </ul>
-<h2 id="localization">Localization</h2>
+<h2 id="localization-1">Localization</h2>
 <blockquote>
 <ul>
 <li><img
