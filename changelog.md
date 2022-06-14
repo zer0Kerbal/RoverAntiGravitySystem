@@ -205,13 +205,41 @@
 * Away With Words - Localization
 
 * Update
-  * [agmodule.cfg]
+
+* Rename
+  * [agmodule.cfg] to [roverantigrav.cfg]
+    * [agModule] to [RoverAntiGravitySystemModule]
+    * [title] from #RAGS-agmodul-titl to #RAGS-titl
+    * [description] = #RAGS-agmodul-desc to #RAGS-desc
+    * [tags] from #RAGS-agmodul-tags to #RAGS-tags
 
 ### Code
 
 * Update
   * Localization
+  * tightening white space
+  * tightening if's, suggested by @Lisias
+    * combine several nested if's into one
+    * if (isOn && isSwitching)
+    * if (isOn && !thereIsAnEngine)
+  * Color.green -> Color.black (line 147)
+  * Color.red -> Color.black (line 148)
 * [RoverAntiGravitySystem.dll] v1.1.7.
+* [Consumption]
+  * change from float to *readonly double*
+  * should this scale with the mass of the rover?
+* Move array construction out of
+  * [OnStart]
+  * into:
+    * [GetGravities]
+    * [GetCelestials]
+* Add
+  * GetInfo()
+    * localized
+  * RateString();
+    * localized
+* closes #64 - Add GetInfo()
+* closes #63 - localize code
 
 ### Localization
 
