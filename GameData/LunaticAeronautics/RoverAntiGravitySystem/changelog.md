@@ -199,7 +199,12 @@
 
 ### Code
 
-* [RoverAntiGravitySystem.dll] v1.1.7.96
+* [RoverAntiGravitySystem.dll] v1.1.7.97
+* [Bug 🐞]: buttons not changing color
+  * fixed
+  * Color.green -> Color.black (line 147)
+  * Color.red -> Color.black (line 148)
+  * closes #73 - [Bug 🐞]: buttons not changing color
 * Update
   * Localization
   * tightening white space
@@ -207,8 +212,6 @@
     * combine several nested if's into one
     * if (isOn && isSwitching)
     * if (isOn && !thereIsAnEngine)
-  * Color.green -> Color.black (line 147)
-  * Color.red -> Color.black (line 148)
 * [Consumption]
   * change from float to *readonly double*
   * should this scale with the mass of the rover?
