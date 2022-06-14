@@ -52,22 +52,6 @@ CC BY-ND 4.0 by zer0Kerbal
 * closes #30 - 1.1.2.0.release
 * closes #31 - 1.1.4.0.release
 
-### docs/
-
-* Update
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
-* Add
-  * [404.md] v1.0.3.1
-  * [Disclaimer.md] v1.0.0.0
-  * [LegalMumboJumbo.md] v1.0.5.0
-  * [Localizations.md] v1.1.3.1
-  * [Marketing.md] v1.0.0.0
-  * [Notices.md] v1.0.0.0
-  * [PartInvoice.md] v1.1.3.1
-  * [Why.md] v1.1.0.0
-  * [_config.yml]
-
 ### Status
 
 * Issues
@@ -208,7 +192,7 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ## Version 1.1.7.5-release - `<Away With Words>` edition
 
-* 7 Jun, 2022
+* 13 Jun, 2022
 * Released for Kerbal Space Program 1.3.x
 * by zer0Kerbal
 
@@ -218,13 +202,41 @@ CC BY-ND 4.0 by zer0Kerbal
 * Away With Words - Localization
 
 * Update
-  * [agmodule.cfg]
+
+* Rename
+  * [agmodule.cfg] to [roverantigrav.cfg]
+    * [agModule] to [RoverAntiGravitySystemModule]
+    * [title] from #RAGS-agmodul-titl to #RAGS-titl
+    * [description] = #RAGS-agmodul-desc to #RAGS-desc
+    * [tags] from #RAGS-agmodul-tags to #RAGS-tags
 
 ### Code
 
+* [RoverAntiGravitySystem.dll] v1.1.7.96
 * Update
   * Localization
-* [RoverAntiGravitySystem.dll] v1.1.7.
+  * tightening white space
+  * tightening if's, suggested by @Lisias
+    * combine several nested if's into one
+    * if (isOn && isSwitching)
+    * if (isOn && !thereIsAnEngine)
+  * Color.green -> Color.black (line 147)
+  * Color.red -> Color.black (line 148)
+* [Consumption]
+  * change from float to *readonly double*
+  * should this scale with the mass of the rover?
+* Move array construction out of
+  * [OnStart]
+  * into:
+    * [GetGravities]
+    * [GetCelestials]
+* Add
+  * GetInfo()
+    * localized
+  * RateString();
+    * localized
+* closes #64 - Add GetInfo()
+* closes #63 - localize code
 
 ### Localization
 
@@ -234,7 +246,10 @@ CC BY-ND 4.0 by zer0Kerbal
     * [readme.md] v2.1.1.0
     * [quickstart.md] v1.0.1.0
 * Part
-  * create agency
+  * create
+    * agency
+    * Flag
+    * scaled.truecolor
   * run localizer
 * Parts to localize
   * [agmodule.cfg]
@@ -249,6 +264,22 @@ CC BY-ND 4.0 by zer0Kerbal
   * closes #6 - English <us-en.cfg>
   * closes #24 - Part Localization
   * closes #25 - Code Localization
+
+### docs/
+
+* Add
+  * [ManualInstallation.md] v1.1.7.0
+  * [Attribution.md] v1.0.6.0
+  * [404.md] v1.0.3.1
+  * [Disclaimer.md] v1.0.0.0
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [PartInvoice.md] v1.1.3.1
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+* closes #71 - docs/
 
 ### Status
 
