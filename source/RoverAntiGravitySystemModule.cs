@@ -170,74 +170,50 @@ namespace RoverAntiGravitySystem
                 isSwitching = true;
             }
 
-            if (isSwitching)
+            if (isSwitching && isOn)
             {
-                if (isOn)
-                {
-                    this.myAnimation["switch"].time = 0;
-                    this.myAnimation["switch"].speed = 1;
-                    this.myAnimation.Play("switch");
+                this.myAnimation["switch"].time = 0;
+                this.myAnimation["switch"].speed = 1;
+                this.myAnimation.Play("switch");
 
-                    this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-                    this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
 
-                    isSwitching = false;
-                }
-                else // = !isON
-                {
-                    this.myAnimation["switch"].time = this.myAnimation["switch"].length;
-                    this.myAnimation["switch"].speed = -1;
-                    this.myAnimation.Play("switch");
-
-                    this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-                    this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
-
-                    isSwitching = false;
-                }
+                isSwitching = false;
             }
+            else if (isSwitching && !isOn)
+            {
+                this.myAnimation["switch"].time = this.myAnimation["switch"].length;
+                this.myAnimation["switch"].speed = -1;
+                this.myAnimation.Play("switch");
 
-            //if (isOn && isSwitching)
-            //{
-            //    this.myAnimation["switch"].time = 0;
-            //    this.myAnimation["switch"].speed = 1;
-            //    this.myAnimation.Play("switch");
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
 
-            //    this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-            //    this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-
-            //    isSwitching = false;
-            //}
-            //else if (!isOn && isSwitching)
-            //{
-            //    this.myAnimation["switch"].time = this.myAnimation["switch"].length;
-            //    this.myAnimation["switch"].speed = -1;
-            //    this.myAnimation.Play("switch");
-
-            //    this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-            //    this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-
-            //    isSwitching = false;
-            //}
-
+                isSwitching = false;
+            }
         }
 
         public override void OnFixedUpdate()
         {
             base.OnFixedUpdate();
 
-            if (isOn && !thereIsAnEngine)
-            { 
-                if (this.part.RequestResource("ElectricCharge", Consumption) >= Consumption)
+            if (!thereIsAnEngine)
+            {
+                if (isOn)
                 {
-                    Rigidbody vs = this.vessel.GetComponent<Rigidbody>(); ;
+                    if (this.part.RequestResource("ElectricCharge", Consumption) >= Consumption)
+                    {
+                        Rigidbody vs = this.vessel.GetComponent<Rigidbody>(); ;
 
-                    vs.AddForceAtPosition(-FlightGlobals.getGeeForceAtPosition(this.vessel.CoMD) * this.vessel.GetTotalMass(), this.vessel.CoMD);
-                    vs.AddForceAtPosition(-FlightGlobals.getCentrifugalAcc(this.vessel.CoMD, this.vessel.mainBody) * this.vessel.GetTotalMass(), this.vessel.CoMD);
-                }
-                else
-                {
-                    isOn = false;
-                    isSwitching = true;
+                        vs.AddForceAtPosition(-FlightGlobals.getGeeForceAtPosition(this.vessel.CoMD) * this.vessel.GetTotalMass(), this.vessel.CoMD);
+                        vs.AddForceAtPosition(-FlightGlobals.getCentrifugalAcc(this.vessel.CoMD, this.vessel.mainBody) * this.vessel.GetTotalMass(), this.vessel.CoMD);
+                    }
+                    else
+                    {
+                        isOn = false;
+                        isSwitching = true;
+                    }
                 }
             }
             else
@@ -251,11 +227,8 @@ namespace RoverAntiGravitySystem
 
 /// ************************************************
 
-        [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
-
-
-
-        //[KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Next: Moho.")]
+        //[KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
+        [KSPEvent(name = "NextGravitySetupEvent", guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Next: Moho.")]
 
         public void NextGravitySetupEvent()
         {
@@ -267,15 +240,11 @@ namespace RoverAntiGravitySystem
             Events["NextGravitySetupEvent"].guiName = Localizer.Format("#RAGS-NextGravSetup", Celestials[selectedCelestial], (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]));
             Events["PrevGravitySetupEvent"].guiName = Localizer.Format("#RAGS-PrevGravSetup", Celestials[selectedCelestial], (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]));
 
-            // #RAGS-NextGravSetup = Current <b><<1>></b>. Next: <b><<2>></b>.
-            //Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            //Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
-
             gravity = Gravities[selectedCelestial];
         }
 
 /// ************************************************
-        [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
+        [KSPEvent(name = "PrevGravitySetupEvent", guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
         public void PrevGravitySetupEvent()
         {
             selectedCelestial--;
@@ -285,10 +254,6 @@ namespace RoverAntiGravitySystem
 
             Events["NextGravitySetupEvent"].guiName = Localizer.Format("#RAGS-NextGravSetup", Celestials[selectedCelestial], (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]));
             Events["PrevGravitySetupEvent"].guiName = Localizer.Format("#RAGS-PrevGravSetup", Celestials[selectedCelestial], (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]));
-
-            // #RAGS-NextGravSetup = Current <b><<1>></b>. Next: <b><<2>></b>.
-            //Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            //Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             gravity = Gravities[selectedCelestial];
         }
