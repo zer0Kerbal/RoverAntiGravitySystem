@@ -244,8 +244,8 @@ namespace RoverAntiGravitySystem
             {
                 this.myAnimation["switch"].time = 0;
 
-                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
             }
         }
 
@@ -275,7 +275,7 @@ namespace RoverAntiGravitySystem
         }
 
 /// ************************************************
-        [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Prev: Eeloo.")]
+        [KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
         public void PrevGravitySetupEvent()
         {
             selectedCelestial--;
@@ -346,7 +346,7 @@ namespace RoverAntiGravitySystem
             if (info == string.Empty)
             {
                 info += Localizer.Format("#LA-Agency-titl") + "\r\n"; // #LA-Agency-titl = Lunatic Aeronautics
-                info += Localizer.Format("# RAGS-modnamev", Version.SText) + "\r\n"; // Rover Anti Grav Manipulator v Version Number text
+                info += Localizer.Format("#RAGS-modnamev", Version.SText) + "\r\n"; // Rover Anti Grav Manipulator v Version Number text
                 info += "\n<color=#b4d455FF>" + Localizer.Format("#RAGS-GetInfo"); // Now, with advances in technology, Lunatics brings you the feeling of... flying rovers. Can't change atmospheric influences. Only to be used on rovers!
 
                 // Requires
