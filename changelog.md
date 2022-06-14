@@ -193,7 +193,7 @@
 
 ---
 
-## Version 1.1.7.5-release - `<Away With Words>` edition
+## Version 1.1.7.5-release
 
 * 7 Jun, 2022
 * Released for Kerbal Space Program 1.3.x

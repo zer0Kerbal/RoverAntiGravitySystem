@@ -5,7 +5,6 @@ using System.Text;
 using UnityEngine;
 using KSP;
 using KSP.UI.Screens;
-using KSP.Localization;
 
 namespace RoverAntiGravitySystem
 {
@@ -77,40 +76,21 @@ namespace RoverAntiGravitySystem
         {
             base.OnStart(state);
 
-            Celestials[0] = Localizer.Format("#autoLOC_910051"); // Moho^N
-            Celestials[1] = Localizer.Format("#autoLOC_910049"); // Eve^N
-            Celestials[2] = Localizer.Format("#autoLOC_910037"); // Gilly^N
-            Celestials[3] = Localizer.Format("#autoLOC_910048"); // Kerbin^N
-            Celestials[4] = Localizer.Format("#autoLOC_910035"); // The Mun^N
-            Celestials[5] = Localizer.Format("#autoLOC_910033"); // Minmus^N
-            Celestials[6] = Localizer.Format("#autoLOC_910045"); // Duna^N
-            Celestials[7] = Localizer.Format("#autoLOC_910031"); // Ike^N
-            Celestials[8] = Localizer.Format("#autoLOC_910043"); // Dres^N
-            Celestials[9] = Localizer.Format("#autoLOC_910029"); // Laythe^N
-            Celestials[10] = Localizer.Format("#autoLOC_910027"); // Vall^N
-            Celestials[11] = Localizer.Format("#autoLOC_910025"); // Tylo^N
-            Celestials[12] = Localizer.Format("#autoLOC_910023"); // Bop^N
-            Celestials[13] = Localizer.Format("#autoLOC_910021"); // Pol^N
-            Celestials[14] = Localizer.Format("#autoLOC_910039"); // Eeloo^N
-            
-            // Localizer.Format("#autoLOC_910041"); // Jool^N
-            // Localizer.Format("#autoLOC_910053"); // The Sun^N
-
-            //Celestials[0] = "Moho";
-            //Celestials[1] = "Eve";
-            //Celestials[2] = "Gilly";
-            //Celestials[3] = "Kerbin";
-            //Celestials[4] = "Mun";
-            //Celestials[5] = "Minmus";
-            //Celestials[6] = "Duna";
-            //Celestials[7] = "Ike";
-            //Celestials[8] = "Dres";
-            //Celestials[9] = "Laythe";
-            //Celestials[10] = "Vall";
-            //Celestials[11] = "Tylo";
-            //Celestials[12] = "Bop";
-            //Celestials[13] = "Pol";
-            //Celestials[14] = "Eeloo";
+            Celestials[0] = "Moho";
+            Celestials[1] = "Eve";
+            Celestials[2] = "Gilly";
+            Celestials[3] = "Kerbin";
+            Celestials[4] = "Mun";
+            Celestials[5] = "Minmus";
+            Celestials[6] = "Duna";
+            Celestials[7] = "Ike";
+            Celestials[8] = "Dres";
+            Celestials[9] = "Laythe";
+            Celestials[10] = "Vall";
+            Celestials[11] = "Tylo";
+            Celestials[12] = "Bop";
+            Celestials[13] = "Pol";
+            Celestials[14] = "Eeloo";
 
             Gravities[0] = GeeMoho;
             Gravities[1] = GeeEve;
@@ -132,12 +112,8 @@ namespace RoverAntiGravitySystem
 
             gravity = Gravities[selectedCelestial];
 
-            Events["NextGravitySetupEvent"].guiName = Localizer.Format("#RAGS-NextGravSetup", Celestials[selectedCelestial], (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]));
-            Events["PrevGravitySetupEvent"].guiName = Localizer.Format("#RAGS-PrevGravSetup", Celestials[selectedCelestial], (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]));
-            
-            // #RAGS-NextGravSetup = Current <b><<1>></b>. Next: <b><<2>></b>.
-            //Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            //Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
+            Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
+            Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
 
             myAnimation = this.part.GetComponentInChildren<Animation>();
             this.myAnimation["switch"].wrapMode = WrapMode.Once;
@@ -291,66 +267,6 @@ namespace RoverAntiGravitySystem
         {
             isOn = !isOn;
             isSwitching = true;
-        }
-
-        /// <summary>Used to convert a rate float to a string, (/sec /min /hr) </summary>
-        /// <param name="Rate"></param>
-        /// <returns></returns>
-        public string RateString(double Rate)
-        {
-            // limit decimal places to 10 and add sfx
-            string sfx = Localizer.Format("#autoLOC_6001048", Rate); // per second
-            if (Rate <= 0.004444444f)
-            {
-                Rate *= 3600;
-                sfx = Localizer.Format("#autoLOC_6001047", Rate); // per hour
-            }
-            else if (Rate < 0.2666667f)
-            {
-                Rate *= 60;
-                sfx = sfx = Localizer.Format("##RAGS-perMin", Rate); // per minute
-            }
-            return sfx;
-        }
-
-        /// <summary>Module information shown in editors</summary>
-        private string info = string.Empty;
-
-        /// <summary>this is what is shown in the editors/// </summary>
-        /// <returns>Info</returns>
-        public override string GetInfo()
-        {
-            //? this is what is shown in the editor
-            //? As annoying as it is, pre-parsing the config MUST be done here, because this is called during part loading.
-            //? The config is only fully parsed after everything is fully loaded (which is why it's in OnStart())
-
-            /* :::This is what it should look like with default settings:::
-             * Lunatic Aeronautics
-             * Rover Anti Grav System (RAGS) v1.3.0.0
-             * 
-             * Required: (color)
-             *   ElectricCharge: 0.5/sec
-             * 
-             * Output:
-             * Magic!
-             * 
-             */
-
-            if (info == string.Empty)
-            {
-                info += Localizer.Format("#LA-Agency-titl") + "\r\n"; // #LA-Agency-titl = Lunatic Aeronautics
-                info += Localizer.Format("# RAGS-modnamev", Version.SText) + "\r\n"; // Rover Anti Grav Manipulator v Version Number text
-                info += "\n<color=#b4d455FF>" + Localizer.Format("#RAGS-GetInfo"); // Now, with advances in technology, Lunatics brings you the feeling of... flying rovers. Can't change atmospheric influences. Only to be used on rovers!
-
-                // Requires
-                info += $"\r\n<color=#FFFF19>{Localizer.Format("#autoLOC_244332")}:</color>\r\n"; // Requires:
-                info += String.Format("- {0}: {1:n3}\r\n", Localizer.Format("#autoLOC_501004"), RateString(Consumption));
-
-                // Outputs
-                info += $"\r\n<color=#FFFF19>{Localizer.Format("#autoLOC_244333")}:</color>\r\n"; // Outputs:
-                info += String.Format("- {0}\r\n", Localizer.Format("#RAGS-output"));
-            }
-            return info;
         }
     }
 }
