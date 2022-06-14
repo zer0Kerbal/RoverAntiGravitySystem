@@ -39,22 +39,6 @@
 * closes #30 - 1.1.2.0.release
 * closes #31 - 1.1.4.0.release
 
-### docs/
-
-* Update
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
-* Add
-  * [404.md] v1.0.3.1
-  * [Disclaimer.md] v1.0.0.0
-  * [LegalMumboJumbo.md] v1.0.5.0
-  * [Localizations.md] v1.1.3.1
-  * [Marketing.md] v1.0.0.0
-  * [Notices.md] v1.0.0.0
-  * [PartInvoice.md] v1.1.3.1
-  * [Why.md] v1.1.0.0
-  * [_config.yml]
-
 ### Status
 
 * Issues
@@ -264,6 +248,22 @@
   * closes #6 - English <us-en.cfg>
   * closes #24 - Part Localization
   * closes #25 - Code Localization
+
+### docs/
+
+* Update
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+* Add
+  * [404.md] v1.0.3.1
+  * [Disclaimer.md] v1.0.0.0
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [PartInvoice.md] v1.1.3.1
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
 
 ### Status
 
