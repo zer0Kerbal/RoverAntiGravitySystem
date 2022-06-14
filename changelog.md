@@ -179,7 +179,7 @@
 
 ## Version 1.1.7.5-release - `<Away With Words>` edition
 
-* 7 Jun, 2022
+* 13 Jun, 2022
 * Released for Kerbal Space Program 1.3.x
 * by zer0Kerbal
 
@@ -199,6 +199,12 @@
 
 ### Code
 
+* [RoverAntiGravitySystem.dll] v1.1.7.97
+* [Bug 🐞]: buttons not changing color
+  * fixed
+  * Color.green -> Color.black (line 147)
+  * Color.red -> Color.black (line 148)
+  * closes #73 - [Bug 🐞]: buttons not changing color
 * Update
   * Localization
   * tightening white space
@@ -206,9 +212,6 @@
     * combine several nested if's into one
     * if (isOn && isSwitching)
     * if (isOn && !thereIsAnEngine)
-  * Color.green -> Color.black (line 147)
-  * Color.red -> Color.black (line 148)
-* [RoverAntiGravitySystem.dll] v1.1.7.
 * [Consumption]
   * change from float to *readonly double*
   * should this scale with the mass of the rover?
@@ -233,7 +236,10 @@
     * [readme.md] v2.1.1.0
     * [quickstart.md] v1.0.1.0
 * Part
-  * create agency
+  * create
+    * agency
+    * Flag
+    * scaled.truecolor
   * run localizer
 * Parts to localize
   * [agmodule.cfg]
@@ -251,10 +257,9 @@
 
 ### docs/
 
-* Update
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
 * Add
+  * [ManualInstallation.md] v1.1.7.0
+  * [Attribution.md] v1.0.6.0
   * [404.md] v1.0.3.1
   * [Disclaimer.md] v1.0.0.0
   * [LegalMumboJumbo.md] v1.0.5.0
@@ -264,6 +269,7 @@
   * [PartInvoice.md] v1.1.3.1
   * [Why.md] v1.1.0.0
   * [_config.yml]
+* closes #71 - docs/
 
 ### Status
 
