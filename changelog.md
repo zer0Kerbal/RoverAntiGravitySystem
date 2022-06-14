@@ -221,6 +221,7 @@
   * tightening if's, suggested by @Lisias
     * combine several nested if's into one
     * if (isOn && isSwitching)
+    * if (isOn && !thereIsAnEngine)
   * Color.green -> Color.black (line 147)
   * Color.red -> Color.black (line 148)
 * [RoverAntiGravitySystem.dll] v1.1.7.
@@ -232,6 +233,13 @@
   * into:
     * [GetGravities]
     * [GetCelestials]
+* Add
+  * GetInfo()
+    * localized
+  * RateString();
+    * localized
+* closes #64 - Add GetInfo()
+* closes #63 - localize code
 
 ### Localization
 
