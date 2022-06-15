@@ -126,17 +126,13 @@ namespace RoverAntiGravitySystem
             Events["NextGravitySetupEvent"].guiName = Localizer.Format("#RAGS-NextGravSetup", Celestials[selectedCelestial], (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]));
             Events["PrevGravitySetupEvent"].guiName = Localizer.Format("#RAGS-PrevGravSetup", Celestials[selectedCelestial], (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]));
 
-            // #RAGS-NextGravSetup = Current <b><<1>></b>. Next: <b><<2>></b>.
-            //Events["NextGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Next: " + (selectedCelestial != 14 ? Celestials[selectedCelestial + 1] : Celestials[0]) + ".";
-            //Events["PrevGravitySetupEvent"].guiName = "Current: " + Celestials[selectedCelestial] + ". Prev: " + (selectedCelestial != 0 ? Celestials[selectedCelestial - 1] : Celestials[14]) + ".";
-
             myAnimation = this.part.GetComponentInChildren<Animation>();
             this.myAnimation["switch"].wrapMode = WrapMode.Once;
 
             isOn = false;
 
-            this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-            this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+            this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+            this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
 
         }
 
@@ -228,7 +224,7 @@ namespace RoverAntiGravitySystem
 /// ************************************************
 
         //[KSPEvent(guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
-        [KSPEvent(name = "NextGravitySetupEvent", guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "Current: Space. Next: Moho.")]
+        [KSPEvent(name = "NextGravitySetupEvent", guiActive = true, guiActiveUnfocused = true, unfocusedRange = 20.0f, guiActiveEditor = false, guiName = "#RAGS-Booting")]
 
         public void NextGravitySetupEvent()
         {
