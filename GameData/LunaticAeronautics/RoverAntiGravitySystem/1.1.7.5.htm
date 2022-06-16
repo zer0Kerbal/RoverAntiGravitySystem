@@ -6,8 +6,8 @@ updated: 03 Jun 2022 -->
 <p><a
 href="https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/"
 title="RoverAntiGravitySystem"><img
-src="https://img.shields.io/badge/Rover%20Anti%20Gravity%20System%20(RAGS)%20-v1.1.7.0--release-BADA55.svg?style=plastic&amp;labelColor=darkgreen/"
-title="1.1.7.0-release"
+src="https://img.shields.io/badge/Rover%20Anti%20Gravity%20System%20(RAGS)%20-v1.1.7.5--release-BADA55.svg?style=plastic&amp;labelColor=darkgreen/"
+title="1.1.7.5-release"
 alt="Rover Anti Gravity System Version" /></a><br />
 <a href="http://kerbalspaceprogram.com/"
 title="Kerbal Space Program"><img
@@ -24,9 +24,10 @@ href="https://zer0kerbal.github.io/RoverAntiGravitySystem/"
 title="GitHub Pages"><img
 src="https://img.shields.io/badge/GitHub-Pages-white?style=plastic&amp;labelColor=9cf&amp;logoColor=181717&amp;logo=github/"
 title="GitHub IO" alt="Pages" /></a></p>
-<h1 id="version-1170-release">Version 1.1.7.0-release</h1>
+<h1 id="version-1175-release---away-with-words-edition">Version
+1.1.7.5-release - <code>&lt;Away With Words&gt;</code> edition</h1>
 <ul>
-<li>07 Jun 2022</li>
+<li>15 Jun 2022</li>
 <li>Release for Kerbal Space Program [KSP 1.3.x]</li>
 <li>by zer0Kerbal</li>
 </ul>
@@ -36,26 +37,143 @@ title="GitHub IO" alt="Pages" /></a></p>
 <h2 id="changes">Changes</h2>
 <h3 id="recompile-for-13x">Recompile for 1.3.x</h3>
 <ul>
-<li>x64 bit only</li>
-<li>released for KSP 1.3.x</li>
-<li>KSP minimum version updated to 1.3.0</li>
+<li><p>x64 bit only</p></li>
+<li><p>Away With Words - Localization</p></li>
+<li><p>Update</p></li>
+<li><p>Rename</p>
+<ul>
+<li>[agmodule.cfg] to [roverantigrav.cfg]
+<ul>
+<li>[agModule] to [RoverAntiGravitySystemModule]</li>
+<li>[title] from #RAGS-agmodul-titl to #RAGS-titl</li>
+<li>[description] = #RAGS-agmodul-desc to #RAGS-desc</li>
+<li>[tags] from #RAGS-agmodul-tags to #RAGS-tags</li>
+</ul></li>
+</ul></li>
 </ul>
 <h3 id="code">Code</h3>
 <ul>
-<li>Rename
+<li>[RoverAntiGravitySystem.dll] v1.1.7.103</li>
+<li>[Bug 🐞]: Module switches off unexpectantly
 <ul>
-<li>[agModule.cs] to [RoverAntiGravitySystemModule.cs]</li>
-<li>[nextGravitySetupEvent] to [NextGravitySetupEvent]</li>
-<li>[prevGravitySetupEvent] to [prevGravitySetupEvent]</li>
-<li>[onSwitch] to [OnSwitch]</li>
+<li>fixed</li>
+<li>declaration of variable <code>Consumption</code> was changed from
+float to double
+<ul>
+<li>was: <code>public float Consumption = 0.5f;</code></li>
+<li>to: <code>public double Consumption = 0.5;</code></li>
 </ul></li>
-<li>[RoverAntiGravitySystem.dll] v1.1.7.68</li>
+<li>changing back to float fixed issue</li>
+<li>closes #74 - [Bug 🐞]: Module switches off unexpectantly</li>
+</ul></li>
+<li>[Bug 🐞]: buttons not changing color
+<ul>
+<li>fixed</li>
+<li>Color.green -&gt; Color.black (line 147)</li>
+<li>Color.red -&gt; Color.black (line 148)</li>
+<li>closes #73 - [Bug 🐞]: buttons not changing color</li>
+</ul></li>
+<li>Update
+<ul>
+<li>Localization</li>
+<li>tightening white space</li>
+<li>tightening if's, suggested by @Lisias
+<ul>
+<li>combine several nested if's into one</li>
+<li>if (isOn &amp;&amp; isSwitching)</li>
+<li>if (isOn &amp;&amp; !thereIsAnEngine)</li>
+</ul></li>
+</ul></li>
+<li>[Consumption]
+<ul>
+<li>change from float to <em>readonly double</em></li>
+<li>should this scale with the mass of the rover?</li>
+</ul></li>
+<li>Move array construction out of
+<ul>
+<li>[OnStart]</li>
+<li>into:
+<ul>
+<li>[GetGravities]</li>
+<li>[GetCelestials]</li>
+</ul></li>
+</ul></li>
+<li>Add
+<ul>
+<li>GetInfo()
+<ul>
+<li>localized</li>
+</ul></li>
+<li>RateString();
+<ul>
+<li>localized</li>
+</ul></li>
+</ul></li>
+<li>closes #64 - Add GetInfo()</li>
+<li>closes #63 - localize code</li>
+</ul>
+<h3 id="localization">Localization</h3>
+<ul>
+<li>Create
+<ul>
+<li>Localization/
+<ul>
+<li>&lt;en-us.cfg&gt;</li>
+<li>[readme.md] v2.1.1.0</li>
+<li>[quickstart.md] v1.0.1.0</li>
+</ul></li>
+</ul></li>
+<li>Part
+<ul>
+<li>create
+<ul>
+<li>agency</li>
+<li>Flag</li>
+<li>scaled.truecolor</li>
+</ul></li>
+<li>run localizer</li>
+</ul></li>
+<li>Parts to localize
+<ul>
+<li>[agmodule.cfg]</li>
+</ul></li>
+<li>Code
+<ul>
+<li>settings</li>
+<li>GUI</li>
+<li>screen</li>
+<li>PAW</li>
+<li>InstallChecker</li>
+<li>scrap KSP dictionary</li>
+<li>updates #5 - Localization - Master</li>
+<li>closes #6 - English &lt;us-en.cfg&gt;</li>
+<li>closes #24 - Part Localization</li>
+<li>closes #25 - Code Localization</li>
+</ul></li>
+</ul>
+<h3 id="docs">docs/</h3>
+<ul>
+<li>Add
+<ul>
+<li>[ManualInstallation.md] v1.1.7.0</li>
+<li>[Attribution.md] v1.0.6.0</li>
+<li>[404.md] v1.0.3.1</li>
+<li>[Disclaimer.md] v1.0.0.0</li>
+<li>[LegalMumboJumbo.md] v1.0.5.0</li>
+<li>[Localizations.md] v1.1.3.1</li>
+<li>[Marketing.md] v1.0.0.0</li>
+<li>[Notices.md] v1.0.0.0</li>
+<li>[PartInvoice.md] v1.1.3.1</li>
+<li>[Why.md] v1.1.0.0</li>
+<li>[_config.yml]</li>
+</ul></li>
+<li>closes #71 - docs/</li>
 </ul>
 <h3 id="status">Status</h3>
 <ul>
 <li>Issues
 <ul>
-<li>updates #41 - KSP 1.3.x</li>
+<li>closes #41 - KSP 1.3.x</li>
 <li>updates #38 - Recompile for major KSP version</li>
 </ul></li>
 </ul>
@@ -78,7 +196,7 @@ title="Issue Tracker">Known Issues</a></li>
 href="https://zer0kerbal.github.io/RoverAntiGravitySystem/"
 title="GitHub Pages">Pages</a></li>
 </ul>
-<h2 id="localization">Localization</h2>
+<h2 id="localization-1">Localization</h2>
 <blockquote>
 <ul>
 <li><img

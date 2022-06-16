@@ -39,22 +39,6 @@
 * closes #30 - 1.1.2.0.release
 * closes #31 - 1.1.4.0.release
 
-### docs/
-
-* Update
-  * [Attribution.md] v1.0.6.0
-  * [ManualInstallation.md] v1.1.7.0
-* Add
-  * [404.md] v1.0.3.1
-  * [Disclaimer.md] v1.0.0.0
-  * [LegalMumboJumbo.md] v1.0.5.0
-  * [Localizations.md] v1.1.3.1
-  * [Marketing.md] v1.0.0.0
-  * [Notices.md] v1.0.0.0
-  * [PartInvoice.md] v1.1.3.1
-  * [Why.md] v1.1.0.0
-  * [_config.yml]
-
 ### Status
 
 * Issues
@@ -193,9 +177,9 @@
 
 ---
 
-## Version 1.1.7.5-release
+## Version 1.1.7.5-release - `<Away With Words>` edition
 
-* 7 Jun, 2022
+* 15 Jun, 2022
 * Released for Kerbal Space Program 1.3.x
 * by zer0Kerbal
 
@@ -205,13 +189,51 @@
 * Away With Words - Localization
 
 * Update
-  * [agmodule.cfg]
+
+* Rename
+  * [agmodule.cfg] to [roverantigrav.cfg]
+    * [agModule] to [RoverAntiGravitySystemModule]
+    * [title] from #RAGS-agmodul-titl to #RAGS-titl
+    * [description] = #RAGS-agmodul-desc to #RAGS-desc
+    * [tags] from #RAGS-agmodul-tags to #RAGS-tags
 
 ### Code
 
+* [RoverAntiGravitySystem.dll] v1.1.7.103
+* [Bug 🐞]: Module switches off unexpectantly
+  * fixed
+  * declaration of variable `Consumption` was changed from float to double
+    * was: `public float Consumption = 0.5f;`
+    * to: `public double Consumption = 0.5;`
+  * changing back to float fixed issue
+  * closes #74 - [Bug 🐞]: Module switches off unexpectantly
+* [Bug 🐞]: buttons not changing color
+  * fixed
+  * Color.green -> Color.black (line 147)
+  * Color.red -> Color.black (line 148)
+  * closes #73 - [Bug 🐞]: buttons not changing color
 * Update
   * Localization
-* [RoverAntiGravitySystem.dll] v1.1.7.
+  * tightening white space
+  * tightening if's, suggested by @Lisias
+    * combine several nested if's into one
+    * if (isOn && isSwitching)
+    * if (isOn && !thereIsAnEngine)
+* [Consumption]
+  * change from float to *readonly double*
+  * should this scale with the mass of the rover?
+* Move array construction out of
+  * [OnStart]
+  * into:
+    * [GetGravities]
+    * [GetCelestials]
+* Add
+  * GetInfo()
+    * localized
+  * RateString();
+    * localized
+* closes #64 - Add GetInfo()
+* closes #63 - localize code
 
 ### Localization
 
@@ -221,7 +243,10 @@
     * [readme.md] v2.1.1.0
     * [quickstart.md] v1.0.1.0
 * Part
-  * create agency
+  * create
+    * agency
+    * Flag
+    * scaled.truecolor
   * run localizer
 * Parts to localize
   * [agmodule.cfg]
@@ -236,6 +261,22 @@
   * closes #6 - English <us-en.cfg>
   * closes #24 - Part Localization
   * closes #25 - Code Localization
+
+### docs/
+
+* Add
+  * [ManualInstallation.md] v1.1.7.0
+  * [Attribution.md] v1.0.6.0
+  * [404.md] v1.0.3.1
+  * [Disclaimer.md] v1.0.0.0
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [PartInvoice.md] v1.1.3.1
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+* closes #71 - docs/
 
 ### Status
 
@@ -463,6 +504,8 @@
 
 * Initial release
 * [RoverAntiGravitySystem.dll] v1.0.0.32
+* Recompiled by zer0Kerbal
+* Slight updates to bring up to modern standards
 
 ### Status
 
