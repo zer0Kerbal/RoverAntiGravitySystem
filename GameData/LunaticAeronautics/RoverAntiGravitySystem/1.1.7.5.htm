@@ -27,7 +27,7 @@ title="GitHub IO" alt="Pages" /></a></p>
 <h1 id="version-1175-release---away-with-words-edition">Version
 1.1.7.5-release - <code>&lt;Away With Words&gt;</code> edition</h1>
 <ul>
-<li>13 Jun 2022</li>
+<li>15 Jun 2022</li>
 <li>Release for Kerbal Space Program [KSP 1.3.x]</li>
 <li>by zer0Kerbal</li>
 </ul>
@@ -53,6 +53,26 @@ title="GitHub IO" alt="Pages" /></a></p>
 </ul>
 <h3 id="code">Code</h3>
 <ul>
+<li>[RoverAntiGravitySystem.dll] v1.1.7.103</li>
+<li>[Bug 🐞]: Module switches off unexpectantly
+<ul>
+<li>fixed</li>
+<li>declaration of variable <code>Consumption</code> was changed from
+float to double
+<ul>
+<li>was: <code>public float Consumption = 0.5f;</code></li>
+<li>to: <code>public double Consumption = 0.5;</code></li>
+</ul></li>
+<li>changing back to float fixed issue</li>
+<li>closes #74 - [Bug 🐞]: Module switches off unexpectantly</li>
+</ul></li>
+<li>[Bug 🐞]: buttons not changing color
+<ul>
+<li>fixed</li>
+<li>Color.green -&gt; Color.black (line 147)</li>
+<li>Color.red -&gt; Color.black (line 148)</li>
+<li>closes #73 - [Bug 🐞]: buttons not changing color</li>
+</ul></li>
 <li>Update
 <ul>
 <li>Localization</li>
@@ -63,10 +83,7 @@ title="GitHub IO" alt="Pages" /></a></p>
 <li>if (isOn &amp;&amp; isSwitching)</li>
 <li>if (isOn &amp;&amp; !thereIsAnEngine)</li>
 </ul></li>
-<li>Color.green -&gt; Color.black (line 147)</li>
-<li>Color.red -&gt; Color.black (line 148)</li>
 </ul></li>
-<li>[RoverAntiGravitySystem.dll] v1.1.7.</li>
 <li>[Consumption]
 <ul>
 <li>change from float to <em>readonly double</em></li>
@@ -108,7 +125,12 @@ title="GitHub IO" alt="Pages" /></a></p>
 </ul></li>
 <li>Part
 <ul>
-<li>create agency</li>
+<li>create
+<ul>
+<li>agency</li>
+<li>Flag</li>
+<li>scaled.truecolor</li>
+</ul></li>
 <li>run localizer</li>
 </ul></li>
 <li>Parts to localize
