@@ -18,7 +18,7 @@ Not enough traction or are the hills too steep and your rover doesn't have the p
 
 Here's the solution!
 
-Put the RAGS module onto your rover and you pilot can switch the gravitational influence on your rover to the celestial body you desire!
+Put the RAGS module onto your rover and your pilot can switch the gravitational influence on your rover to the celestial body you desire!
 
 From Moho to Eeloo and the moons between!
 
@@ -209,7 +209,7 @@ or [![CKAN][CKAN:img]][CKAN:url]
 [mas]:  https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*/ "MOARdV's Avionics System"
 [rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*/ "Raster Prop Monitor"
 
-[LAL]: https://github.com/zer0Kerbal/LunaticAeronauticsLtd "Lunatic Aeronautics Ltd (LA/L)"
+[LAL]: https://forum.kerbalspaceprogram.com/index.php?/topic/208613-*/ "Lunatic Aeronautics Ltd (LA/L)"
 [KMAS]: https://github.com/zer0Kerbal/KMAS "Lunatic Aeronautics K-MAS"
 [RAGS]: https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/ "Rover Anti Gravity System"
 [LAAGR]: https://forum.kerbalspaceprogram.com/index.php?/topic/208502-*/  "Anti Grav Room"
