@@ -60,7 +60,8 @@ namespace RoverAntiGravitySystem
         public int selectedCelestial = 0;
 
         [KSPField(isPersistant = true)]
-        public readonly double Consumption = 0.5f; // should this scale with the mass of the rover?
+        public float Consumption = 0.5f; // should this scale with the mass of the rover?
+        //public double Consumption = 0.5d; // should this scale with the mass of the rover?
 
         public readonly string[] Celestials = new string[15];
         public readonly float[] Gravities = new float[15];
@@ -112,6 +113,21 @@ namespace RoverAntiGravitySystem
             return Celestials;
         }
 
+        public void SwitchEmissives(bool on)
+        {
+            if (on)
+            {
+               this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+            }
+            else
+            {
+                    this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
+            }
+        }
+
+
         public override void OnStart(PartModule.StartState state)
         {
             base.OnStart(state);
@@ -131,8 +147,9 @@ namespace RoverAntiGravitySystem
 
             isOn = false;
 
-            this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-            this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
+            SwitchEmissives(isOn);
+            //this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+            //this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
 
         }
 
@@ -172,8 +189,9 @@ namespace RoverAntiGravitySystem
                 this.myAnimation["switch"].speed = 1;
                 this.myAnimation.Play("switch");
 
-                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
-                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                SwitchEmissives(isOn);
+                //this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.green);
+                //this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
 
                 isSwitching = false;
             }
@@ -183,8 +201,9 @@ namespace RoverAntiGravitySystem
                 this.myAnimation["switch"].speed = -1;
                 this.myAnimation.Play("switch");
 
-                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
+                SwitchEmissives(isOn);
+                //this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                //this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
 
                 isSwitching = false;
             }
@@ -216,8 +235,9 @@ namespace RoverAntiGravitySystem
             {
                 this.myAnimation["switch"].time = 0;
 
-                this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
-                this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
+                SwitchEmissives(isOn);
+                //this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
+                //this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
             }
         }
 
