@@ -497,6 +497,8 @@
 
 * Initial release
 * [RoverAntiGravitySystem.dll] v1.0.0.32
+* Recompiled by zer0Kerbal
+* Slight updates to bring up to modern standards
 
 ### Status
 
