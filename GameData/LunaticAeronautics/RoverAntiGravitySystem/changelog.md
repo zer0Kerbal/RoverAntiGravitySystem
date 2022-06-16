@@ -179,7 +179,7 @@
 
 ## Version 1.1.7.5-release - `<Away With Words>` edition
 
-* 13 Jun, 2022
+* 15 Jun, 2022
 * Released for Kerbal Space Program 1.3.x
 * by zer0Kerbal
 
@@ -199,7 +199,14 @@
 
 ### Code
 
-* [RoverAntiGravitySystem.dll] v1.1.7.97
+* [RoverAntiGravitySystem.dll] v1.1.7.103
+* [Bug 🐞]: Module switches off unexpectantly
+  * fixed
+  * declaration of variable `Consumption` was changed from float to double
+    * was: `public float Consumption = 0.5f;`
+    * to: `public double Consumption = 0.5;`
+  * changing back to float fixed issue
+  * closes #74 - [Bug 🐞]: Module switches off unexpectantly
 * [Bug 🐞]: buttons not changing color
   * fixed
   * Color.green -> Color.black (line 147)
