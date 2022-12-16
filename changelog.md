@@ -16,8 +16,8 @@
 * Released for Kerbal Space Program 1.12.4
 
 ### Adoption
-
-
+rags-agmodule.cfg v1.2.0.0
+<RoverAntiGravitySystem.dll> v1.1.7.103
 
 * Recompile for 1.12.4
 
