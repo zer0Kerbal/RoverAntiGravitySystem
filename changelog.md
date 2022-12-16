@@ -10,170 +10,35 @@
 | spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
-## Version 2.0.0.0-adoption `<Rack 'em, stack 'em, pack 'em>` edition
-
-* 15 Jun 2022
-* Released for Kerbal Space Program 1.12.4
-
-### Adoption
-
-
-
-* Recompile for 1.12.4
-
-* updates #38 - Recompile for major KSP version
-* closes #50 - KSP 1.12.4
-
-### Previous Release Archive Creation 2.0.0.0
-
-* Previous Releases
-  * 1.0.0.0.release
-  * 1.1.0.0.release
-  * 1.1.1.0.release
-  * 1.1.2.0.release
-  * 1.1.4.0.release
-* closes #26 - Previous Releases
-* closes #27 - 1.0.0.0.release
-* closes #28 - 1.1.0.0.release
-* closes #29 - 1.1.1.0.release
-* closes #30 - 1.1.2.0.release
-* closes #31 - 1.1.4.0.release
-
-### Status 2.0.0.0
-
-* Issues
-  * closes #1 - Rover Anti Gravity System (RAGS) 2.0.0.0-adoption `<Rack 'em, stack 'em, pack 'em>`
-  * closes #2 - 2.0.0.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 2.0.0.0 Create Documentation
-  * closes #4 - 2.0.0.0 Create Social Media
-
----
-
-## Version 1.9.0.0-release `<Batteries Not Included>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.11.2
-* by zer0Kerbal
-
-* Recompile for 1.11.1
-
-### Status 1.9.0.0
-
-* Issues
-  * closes #49 - KSP 1.11.2
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.8.0.0-release `<Shared Cockpit>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.10.1
-* by zer0Kerbal
-
-* Recompile for 1.10.1
-
-### Status 1.8.0.0
-
-* Issues
-  * closes #48 - KSP 1.10.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.7.0.0-release `<There's No Place Like Kerbin>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.9.x
-* by zer0Kerbal
-
-* Recompile for 1.9.1
-
-### Status 1.7.0.0
-
-* Issues
-  * closes #47 - KSP 1.9.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.6.0.0-release `<Moar Antigons!!!>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.8.1
-* by zer0Kerbal
-
-* Recompile for 1.8.1
-
-### Status 1.6.0.0
-
-* Issues
-  * closes #46 - KSP 1.8.1
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.5.0.0-release `<Room to Fly>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.7.3
-* by zer0Kerbal
-
-* Recompile for 1.7.3
-
-### Status 1.5.0.0
-
-* Issues
-  * closes #45 - KSP 1.7.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.4.0.0-release `<To Hover or not To Hover>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.6.1
-* by zer0Kerbal
-
-* Recompile for 1.6.1
-
-### Status 1.4.0.0
-
-* Issues
-  * closes #44 - KSP 1.6.1
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.3.0.0-release `<Dressed for Flight>`
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.5.1
-* by zer0Kerbal
-
-* Recompile for 1.5.1
-
-### Status 1.3.0.0
-
-* Issues
-  * closes #43 - KSP 1.5.1
-  * updates #38 - Recompile for major KSP version
-
----
-
 ## Version 1.2.0.0-release `<Remaking History>`
 
-* 7 Jun, 2022
+* 15 Dec 2022
 * Released for Kerbal Space Program 1.4.5
 * by zer0Kerbal
 
 * Recompile for 1.4.5
+* Create hero logo/cover
+* Updated License: GPL-2.0 + CC BY-SA 4.0
+  * was: CC BY-SA 4.0
+* Rename
+  * part
+  * part file
+  * module
+* Add
+  * <ghostparts.cfg> v1.3.0.0
+  * <RoverAntiGravitySystem.cfg> v1.0.0.0
+* Update
+  * <en-us.cfg> v1.1.1.0
 
 ### Status 1.2.0.0
 
 * Issues
   * closes #42 - KSP 1.4.5
   * updates #38 - Recompile for major KSP version
+  * updates #5 - Localization - Master
+  * updates #6 - English <us-en.cfg>
+  * closes #78 - Create HeroLogo.png
+  * closes #77 - Update License
 
 ---
 

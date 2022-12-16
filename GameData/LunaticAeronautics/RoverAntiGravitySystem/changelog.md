@@ -2,178 +2,43 @@
   
 | modName    | Rover Anti Gravity System (RAGS)                                    |
 | ---------- | ------------------------------------------------------------------- |
-| license    | CC-BY-NC-SA-4.0                                                     |
+| license    | GPL-2.0                                                             |
 | author     | ximrm, Tuareg and zer0Kerbal                                        |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
-| spacedock  | (https://spacedock.info/mod/)                                       |
+| spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
-## Version 1.2.99.0-adoption `<EDITION>` edition
+## Version 1.2.0.0-release `<Remaking History>`
 
-* 15 Jun 2022
-* Released for Kerbal Space Program 1.12.x
-
-### Adoption
-
-
-
-### Recompile for 1.12.x
-
-* updates #38 - Recompile for major KSP version
-* closes #50 - KSP 1.12.x
-
-### Previous Release Archive Creation
-
-* Previous Releases
-  * 1.0.0.0.release
-  * 1.1.0.0.release
-  * 1.1.1.0.release
-  * 1.1.2.0.release
-  * 1.1.4.0.release
-* closes #26 - Previous Releases
-* closes #27 - 1.0.0.0.release
-* closes #28 - 1.1.0.0.release
-* closes #29 - 1.1.1.0.release
-* closes #30 - 1.1.2.0.release
-* closes #31 - 1.1.4.0.release
-
-### Status
-
-* Issues
-  * closes #1 - Rover Anti Gravity System (RAGS) 1.2.99.0-adoption <NAME>
-  * closes #2 - 1.2.99.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 1.2.99.0 Create Documentation
-  * closes #4 - 1.2.99.0 Create Social Media
-
----
-
-## Version 1.2.5.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.11.x
+* 15 Dec 2022
+* Released for Kerbal Space Program 1.4.5
 * by zer0Kerbal
 
-### Recompile for 1.11.x
+* Recompile for 1.4.5
+* Create hero logo/cover
+* Updated License: GPL-2.0 + CC BY-SA 4.0
+  * was: CC BY-SA 4.0
+* Rename
+  * part
+  * part file
+  * module
+* Add
+  * <ghostparts.cfg> v1.3.0.0
+  * <RoverAntiGravitySystem.cfg> v1.0.0.0
+* Update
+  * <en-us.cfg> v1.1.1.0
 
-### Status
-
-* Issues
-  * closes #49 - KSP 1.11.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.2.4.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.10.x
-* by zer0Kerbal
-
-### Recompile for 1.10.x
-
-### Status
+### Status 1.2.0.0
 
 * Issues
-  * closes #48 - KSP 1.10.x
+  * closes #42 - KSP 1.4.5
   * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.2.3.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.9.x
-* by zer0Kerbal
-
-### Recompile for 1.9.x
-
-### Status
-
-* Issues
-  * closes #47 - KSP 1.9.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.2.2.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.8.x
-* by zer0Kerbal
-
-### Recompile for 1.8.x
-
-### Status
-
-* Issues
-  * closes #46 - KSP 1.8.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.2.1.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.7.x
-* by zer0Kerbal
-
-### Recompile for 1.7.x
-
-### Status
-
-* Issues
-  * closes #45 - KSP 1.7.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.2.0.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.6.x
-* by zer0Kerbal
-
-### Recompile for 1.6.x
-
-### Status
-
-* Issues
-  * closes #44 - KSP 1.6.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.1.9.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.5.x
-* by zer0Kerbal
-
-### Recompile for 1.5.x
-
-### Status
-
-* Issues
-  * closes #43 - KSP 1.5.x
-  * updates #38 - Recompile for major KSP version
-
----
-
-## Version 1.1.8.0-release
-
-* 7 Jun, 2022
-* Released for Kerbal Space Program 1.4.x
-* by zer0Kerbal
-
-### Recompile for 1.4.x
-
-### Status
-
-* Issues
-  * closes #42 - KSP 1.4.x
-  * updates #38 - Recompile for major KSP version
+  * updates #5 - Localization - Master
+  * updates #6 - English <us-en.cfg>
+  * closes #78 - Create HeroLogo.png
+  * closes #77 - Update License
 
 ---
 
@@ -235,7 +100,7 @@
 * closes #64 - Add GetInfo()
 * closes #63 - localize code
 
-### Localization
+### Localization 1.1.7.5
 
 * Create
   * Localization/
@@ -262,7 +127,7 @@
   * closes #24 - Part Localization
   * closes #25 - Code Localization
 
-### docs/
+### docs/ 1.1.7.5
 
 * Add
   * [ManualInstallation.md] v1.1.7.0
@@ -278,7 +143,7 @@
   * [_config.yml]
 * closes #71 - docs/
 
-### Status
+### Status 1.1.7.5
 
 * Issues
   * closes #41 - KSP 1.3.x
@@ -298,7 +163,7 @@
 * released for KSP 1.3.x
 * KSP minimum version updated to 1.3.0
 
-### Code
+### Code 1.1.7.0
 
 * Rename
   * [agModule.cs] to [RoverAntiGravitySystemModule.cs]
@@ -307,7 +172,7 @@
   * [onSwitch] to [OnSwitch]
 * [RoverAntiGravitySystem.dll] v1.1.7.68
 
-### Status
+### Status 1.1.7.0
 
 * Issues
   * updates #41 - KSP 1.3.x
@@ -331,7 +196,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.6.0
 
 * Update
   * CS1061 error
@@ -339,7 +204,7 @@
 * closes #55 - CS1061: findWorldCenterOfMass
 * [RoverAntiGravitySystem.dll] v1.1.6.67
 
-### Status
+### Status 1.1.6.0
 
 * Issues
   * closes #40 - KSP 1.2.x
@@ -363,7 +228,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.5.0
 
 * Update
   * CS1061 error
@@ -373,7 +238,7 @@
 * closes #54 - CS1061: Rigidbody
 * [RoverAntiGravitySystem.dll] v1.1.5.36
 
-### Status
+### Status 1.1.5.0
 
 * Issues
   * closes #39 - KSP 1.1.x
@@ -410,7 +275,7 @@
     * [TechRequired] from composites to specializedElectrics
     * [cost] from 16 to 2600
 
-### Status
+### Status 1.1.4.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -424,7 +289,7 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Update
+### Update 1.1.2.0
 
 * [agModule.cfg]
   * [node_stack_bottom] from 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0 to 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0
@@ -432,14 +297,14 @@
   * [mass] from 1 to 0.2
   * [attachRules] from 1,1,1,1,0 to 1,1,1,0,0
 
-### Code
+### Code 1.1.2.0
 
 * Changes
   * from [public static int selectedCelestial = 0;] to [public int selectedCelestial = 0;]
   * from [public static double Consumption = 0.5;] to [public float Consumption = 0.5f;]
 * [RoverAntiGravitySystem.dll] v1.1.2.35
 
-### Status
+### Status 1.1.2.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -453,12 +318,12 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Changes
+### Changes 1.1.1.0
 
 * Add license.url
 * [RoverAntiGravitySystem.dll] v1.1.1.34
 
-### Status
+### Status 1.1.1.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -479,7 +344,7 @@
 * add
   * [agr-moremetall-diff.png]
 
-### Code
+### Code 1.1.0.0
 
 * Rename
   * Box002 to buttonGreen
@@ -488,7 +353,7 @@
 * this.myAnimation["switch"].speed = 1 from 5;
 * [RoverAntiGravitySystem.dll] v1.1.0.33
   
-### Status
+### Status 1.1.0.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -507,7 +372,7 @@
 * Recompiled by zer0Kerbal
 * Slight updates to bring up to modern standards
 
-### Status
+### Status 1.0.0.0
 
 * Issues
   * updates #26 - Previous Releases

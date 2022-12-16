@@ -1,4 +1,23 @@
-﻿using System;
+﻿/* Rover Anti Gravity System
+   * Copyright (C) 2015 Lunatic Aeronautics (ximrm and Tuareg)
+   * Copyright (C) 2020 zer0Kerbal
+
+   * This program is free software; you can redistribute it and/or modify
+   * it under the terms of the GNU General Public License as published by
+   * the Free Software Foundation; either version 2 of the License, or (at
+   * your option) any later version.
+
+   * This program is distributed in the hope that it will be useful, but
+   * WITHOUT ANY WARRANTY; without even the implied warranty of
+   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+   * General Public License for more details.
+
+   * You should have received a copy of the GNU General Public License
+   * along with this program; if not, write to the Free Software
+   * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
+   * USA.
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -112,7 +131,8 @@ namespace RoverAntiGravitySystem
             Celestials[14] = Localizer.Format("#autoLOC_910039"); // Eeloo^N
             return Celestials;
         }
-
+        /// <summary>SwitchEmissives</summary>
+        /// <param name="on"></param>
         public void SwitchEmissives(bool on)
         {
             if (on)
@@ -126,7 +146,6 @@ namespace RoverAntiGravitySystem
                 this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
             }
         }
-
 
         public override void OnStart(PartModule.StartState state)
         {
@@ -150,7 +169,6 @@ namespace RoverAntiGravitySystem
             SwitchEmissives(isOn);
             //this.gameObject.GetChild("buttonGreen").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.black);
             //this.gameObject.GetChild("buttonRed").GetComponent<Renderer>().material.SetColor("_EmissiveColor", Color.red);
-
         }
 
         public override void OnActive()

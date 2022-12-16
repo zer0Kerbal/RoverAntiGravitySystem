@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AFBFECEC-4026-41FC-BFCF-CFCA4A136E1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>RoverAntiGravitySystem</AssemblyName>
+    <RootNamespace>RoverAntiGravitySystem</RootNamespace>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <LangVersion>latest</LangVersion>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <!-- <OutputPath>bin\Debug\</OutputPath> -->
     <OutputPath>..\GameData\LunaticAeronautics\RoverAntiGravitySystem\Plugins\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -26,58 +27,36 @@
     <ConsolePause>false</ConsolePause>
     <Prefer32Bit>false</Prefer32Bit>
     <PlatformTarget>anycpu</PlatformTarget>
+		<DocumentationFile>..\docs\Code\Code.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>embedded</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\GameData\LunaticAeronautics\RoverAntiGravitySystem\Plugins\</OutputPath>
-    <!-- <DebugSymbols>true</DebugSymbols> -->
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <PlatformTarget>anycpu</PlatformTarget>
     <ConsolePause>false</ConsolePause>
-  </PropertyGroup>
-  <PropertyGroup>
-    <RootNamespace>RoverAntiGravitySystem</RootNamespace>
+		<DocumentationFile>..\docs\Code\Code.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <!-- <Reference Include="K:\11\KSP_Data\Managed\Assembly-UnityScript.dll">
+    <Reference Include="$(K14)Assembly-CSharp.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\12\KSP_Data\Managed\Assembly-UnityScript-firstpass.dll">
-      <Private>False</Private>
-    </Reference> -->
-    <Reference Include="K:\13\KSP_Data\Managed\Assembly-CSharp.dll">
-      <!-- <Reference Include="$(K112)\KSP_Data\Managed\Assembly-CSharp.dll"> -->
+    <Reference Include="$(K14)Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\13\KSP_Data\Managed\Assembly-CSharp-firstpass.dll">
+    <Reference Include="$(K14)UnityEngine.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="K:\13\KSP_Data\Managed\UnityEngine.dll">
-      <Private>False</Private>
-    </Reference>
-    <!-- <Reference Include="K:\11\KSP_Data\Managed\UnityEngine.UI.dll">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="K:\11\KSP_Data\Managed\KSPAssets.dll">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="K:\11\KSP_Data\Managed\KSPCore.dll">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="K:\12\KSP_Data\Managed\KSPUtil.dll">
-      <Private>False</Private>
-    </Reference> -->
-    <!-- <Reference Include="Microsoft.CSharp" /> -->
-    <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RoverAntiGravitySystemModule.cs" />
@@ -105,27 +84,27 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>
-set K100=$(K100)
-IF "%25K100%25"=="" (
-	ECHO Configuration error - K100 not specified in project.
+set K112=$(K112)
+IF "%25K112%25"=="" (
+	ECHO Configuration error - K112 not specified in project.
 	ECHO Either set K100 environment variable
 	PAUSE
 	rem GOTO DONE
 )
-start /D $(ProjectDir)..\  /WAIT _deploy.bat  $(TargetDir) $(TargetFileName)
-if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _buildRelease.bat $(TargetDir) $(TargetFileName)
+start /D $(ProjectDir)..\  /WAIT _addonDeploy.bat $(ProjectDir)
+if $(ConfigurationName) == Release start /D $(ProjectDir)..\   /WAIT _addonRelease.bat $(ProjectDir)
 del $(TargetDir)\*.tmp
 :DONE
-  </PostBuildEvent>
-  </PropertyGroup>
-  <ProjectExtensions>
-    <MonoDevelop>
-      <Properties>
-        <Policies>
-          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="132" TabsToSpaces="False" scope="text/plain" />
-        </Policies>
-      </Properties>
-    </MonoDevelop>
-    <VisualStudio AllowExistingFolder="true" />
-  </ProjectExtensions>
+	</PostBuildEvent>
+	</PropertyGroup>
+	<ProjectExtensions>
+		<MonoDevelop>
+			<Properties>
+				<Policies>
+					<TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="132" TabsToSpaces="False" scope="text/plain" />
+				</Policies>
+			</Properties>
+		</MonoDevelop>
+		<VisualStudio AllowExistingFolder="true" />
+	</ProjectExtensions>
 </Project>
