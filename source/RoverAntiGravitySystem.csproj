@@ -42,13 +42,13 @@
 		<DocumentationFile>..\docs\Code\Code.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="$(K14)Assembly-CSharp.dll">
+    <Reference Include="$(K15)Assembly-CSharp.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="$(K14)Assembly-CSharp-firstpass.dll">
+    <Reference Include="$(K15)Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="$(K14)UnityEngine.dll">
+    <Reference Include="$(K15)UnityEngine.dll">
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Core" />
