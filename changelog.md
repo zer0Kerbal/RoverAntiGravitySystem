@@ -2,29 +2,29 @@
   
 | modName    | Rover Anti Gravity System (RAGS)                                    |
 | ---------- | ------------------------------------------------------------------- |
-| license    | CC-BY-NC-SA-4.0                                                     |
+| license    | GPL-2.0                                                             |
 | author     | ximrm, Tuareg and zer0Kerbal                                        |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
-| spacedock  | (https://spacedock.info/mod/)                                       |
+| spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
-## Version 1.2.99.0-adoption `<EDITION>` edition
+## Version 2.0.0.0-adoption `<Rack 'em, stack 'em, pack 'em>` edition
 
 * 15 Jun 2022
-* Released for Kerbal Space Program 1.12.x
+* Released for Kerbal Space Program 1.12.4
 
 ### Adoption
 
 
 
-### Recompile for 1.12.x
+* Recompile for 1.12.4
 
 * updates #38 - Recompile for major KSP version
-* closes #50 - KSP 1.12.x
+* closes #50 - KSP 1.12.4
 
-### Previous Release Archive Creation
+### Previous Release Archive Creation 2.0.0.0
 
 * Previous Releases
   * 1.0.0.0.release
@@ -39,41 +39,41 @@
 * closes #30 - 1.1.2.0.release
 * closes #31 - 1.1.4.0.release
 
-### Status
+### Status 2.0.0.0
 
 * Issues
-  * closes #1 - Rover Anti Gravity System (RAGS) 1.2.99.0-adoption <NAME>
-  * closes #2 - 1.2.99.0 Verify Legal Mumbo Jumbo
-  * closes #3 - 1.2.99.0 Create Documentation
-  * closes #4 - 1.2.99.0 Create Social Media
+  * closes #1 - Rover Anti Gravity System (RAGS) 2.0.0.0-adoption `<Rack 'em, stack 'em, pack 'em>`
+  * closes #2 - 2.0.0.0 Verify Legal Mumbo Jumbo
+  * closes #3 - 2.0.0.0 Create Documentation
+  * closes #4 - 2.0.0.0 Create Social Media
 
 ---
 
-## Version 1.2.5.0-release
+## Version 1.9.0.0-release `<Batteries Not Included>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.11.x
+* Released for Kerbal Space Program 1.11.2
 * by zer0Kerbal
 
-### Recompile for 1.11.x
+* Recompile for 1.11.1
 
-### Status
+### Status 1.9.0.0
 
 * Issues
-  * closes #49 - KSP 1.11.x
+  * closes #49 - KSP 1.11.2
   * updates #38 - Recompile for major KSP version
 
 ---
 
-## Version 1.2.4.0-release
+## Version 1.8.0.0-release `<Shared Cockpit>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.10.x
+* Released for Kerbal Space Program 1.10.1
 * by zer0Kerbal
 
-### Recompile for 1.10.x
+* Recompile for 1.10.1
 
-### Status
+### Status 1.8.0.0
 
 * Issues
   * closes #48 - KSP 1.10.x
@@ -81,15 +81,15 @@
 
 ---
 
-## Version 1.2.3.0-release
+## Version 1.7.0.0-release `<There's No Place Like Kerbin>`
 
 * 7 Jun, 2022
 * Released for Kerbal Space Program 1.9.x
 * by zer0Kerbal
 
-### Recompile for 1.9.x
+* Recompile for 1.9.1
 
-### Status
+### Status 1.7.0.0
 
 * Issues
   * closes #47 - KSP 1.9.x
@@ -97,31 +97,31 @@
 
 ---
 
-## Version 1.2.2.0-release
+## Version 1.6.0.0-release `<Moar Antigons!!!>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.8.x
+* Released for Kerbal Space Program 1.8.1
 * by zer0Kerbal
 
-### Recompile for 1.8.x
+* Recompile for 1.8.1
 
-### Status
+### Status 1.6.0.0
 
 * Issues
-  * closes #46 - KSP 1.8.x
+  * closes #46 - KSP 1.8.1
   * updates #38 - Recompile for major KSP version
 
 ---
 
-## Version 1.2.1.0-release
+## Version 1.5.0.0-release `<Room to Fly>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.7.x
+* Released for Kerbal Space Program 1.7.3
 * by zer0Kerbal
 
-### Recompile for 1.7.x
+* Recompile for 1.7.3
 
-### Status
+### Status 1.5.0.0
 
 * Issues
   * closes #45 - KSP 1.7.x
@@ -129,50 +129,50 @@
 
 ---
 
-## Version 1.2.0.0-release
+## Version 1.4.0.0-release `<To Hover or not To Hover>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.6.x
+* Released for Kerbal Space Program 1.6.1
 * by zer0Kerbal
 
-### Recompile for 1.6.x
+* Recompile for 1.6.1
 
-### Status
+### Status 1.4.0.0
 
 * Issues
-  * closes #44 - KSP 1.6.x
+  * closes #44 - KSP 1.6.1
   * updates #38 - Recompile for major KSP version
 
 ---
 
-## Version 1.1.9.0-release
+## Version 1.3.0.0-release `<Dressed for Flight>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.5.x
+* Released for Kerbal Space Program 1.5.1
 * by zer0Kerbal
 
-### Recompile for 1.5.x
+* Recompile for 1.5.1
 
-### Status
+### Status 1.3.0.0
 
 * Issues
-  * closes #43 - KSP 1.5.x
+  * closes #43 - KSP 1.5.1
   * updates #38 - Recompile for major KSP version
 
 ---
 
-## Version 1.1.8.0-release
+## Version 1.2.0.0-release `<Remaking History>`
 
 * 7 Jun, 2022
-* Released for Kerbal Space Program 1.4.x
+* Released for Kerbal Space Program 1.4.5
 * by zer0Kerbal
 
-### Recompile for 1.4.x
+* Recompile for 1.4.5
 
-### Status
+### Status 1.2.0.0
 
 * Issues
-  * closes #42 - KSP 1.4.x
+  * closes #42 - KSP 1.4.5
   * updates #38 - Recompile for major KSP version
 
 ---
@@ -235,7 +235,7 @@
 * closes #64 - Add GetInfo()
 * closes #63 - localize code
 
-### Localization
+### Localization 1.1.7.5
 
 * Create
   * Localization/
@@ -262,7 +262,7 @@
   * closes #24 - Part Localization
   * closes #25 - Code Localization
 
-### docs/
+### docs/ 1.1.7.5
 
 * Add
   * [ManualInstallation.md] v1.1.7.0
@@ -278,7 +278,7 @@
   * [_config.yml]
 * closes #71 - docs/
 
-### Status
+### Status 1.1.7.5
 
 * Issues
   * closes #41 - KSP 1.3.x
@@ -298,7 +298,7 @@
 * released for KSP 1.3.x
 * KSP minimum version updated to 1.3.0
 
-### Code
+### Code 1.1.7.0
 
 * Rename
   * [agModule.cs] to [RoverAntiGravitySystemModule.cs]
@@ -307,7 +307,7 @@
   * [onSwitch] to [OnSwitch]
 * [RoverAntiGravitySystem.dll] v1.1.7.68
 
-### Status
+### Status 1.1.7.0
 
 * Issues
   * updates #41 - KSP 1.3.x
@@ -331,7 +331,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.6.0
 
 * Update
   * CS1061 error
@@ -339,7 +339,7 @@
 * closes #55 - CS1061: findWorldCenterOfMass
 * [RoverAntiGravitySystem.dll] v1.1.6.67
 
-### Status
+### Status 1.1.6.0
 
 * Issues
   * closes #40 - KSP 1.2.x
@@ -363,7 +363,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.5.0
 
 * Update
   * CS1061 error
@@ -373,7 +373,7 @@
 * closes #54 - CS1061: Rigidbody
 * [RoverAntiGravitySystem.dll] v1.1.5.36
 
-### Status
+### Status 1.1.5.0
 
 * Issues
   * closes #39 - KSP 1.1.x
@@ -410,7 +410,7 @@
     * [TechRequired] from composites to specializedElectrics
     * [cost] from 16 to 2600
 
-### Status
+### Status 1.1.4.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -424,7 +424,7 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Update
+### Update 1.1.2.0
 
 * [agModule.cfg]
   * [node_stack_bottom] from 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0 to 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0
@@ -432,14 +432,14 @@
   * [mass] from 1 to 0.2
   * [attachRules] from 1,1,1,1,0 to 1,1,1,0,0
 
-### Code
+### Code 1.1.2.0
 
 * Changes
   * from [public static int selectedCelestial = 0;] to [public int selectedCelestial = 0;]
   * from [public static double Consumption = 0.5;] to [public float Consumption = 0.5f;]
 * [RoverAntiGravitySystem.dll] v1.1.2.35
 
-### Status
+### Status 1.1.2.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -453,12 +453,12 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Changes
+### Changes 1.1.1.0
 
 * Add license.url
 * [RoverAntiGravitySystem.dll] v1.1.1.34
 
-### Status
+### Status 1.1.1.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -479,7 +479,7 @@
 * add
   * [agr-moremetall-diff.png]
 
-### Code
+### Code 1.1.0.0
 
 * Rename
   * Box002 to buttonGreen
@@ -488,7 +488,7 @@
 * this.myAnimation["switch"].speed = 1 from 5;
 * [RoverAntiGravitySystem.dll] v1.1.0.33
   
-### Status
+### Status 1.1.0.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -507,7 +507,7 @@
 * Recompiled by zer0Kerbal
 * Slight updates to bring up to modern standards
 
-### Status
+### Status 1.0.0.0
 
 * Issues
   * updates #26 - Previous Releases

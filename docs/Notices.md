@@ -4,7 +4,6 @@ title: Legal Notices
 description: when the revolution comes, .... Legal Mumbo Jumbo (Douglas Adams)
 tags: notices,legal,mumbo,jumbo,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
 <!--
 Notices.md v1.0.1.0
 Rover Anti Gravity System (RAGS)
