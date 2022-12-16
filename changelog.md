@@ -2,12 +2,12 @@
   
 | modName    | Rover Anti Gravity System (RAGS)                                    |
 | ---------- | ------------------------------------------------------------------- |
-| license    | CC-BY-NC-SA-4.0                                                     |
+| license    | GPL-2.0                                                             |
 | author     | ximrm, Tuareg and zer0Kerbal                                        |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
-| spacedock  | (https://spacedock.info/mod/)                                       |
+| spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
 ## Version 1.2.99.0-adoption `<EDITION>` edition
@@ -235,7 +235,7 @@
 * closes #64 - Add GetInfo()
 * closes #63 - localize code
 
-### Localization
+### Localization 1.1.7.5
 
 * Create
   * Localization/
@@ -262,7 +262,7 @@
   * closes #24 - Part Localization
   * closes #25 - Code Localization
 
-### docs/
+### docs/ 1.1.7.5
 
 * Add
   * [ManualInstallation.md] v1.1.7.0
@@ -278,7 +278,7 @@
   * [_config.yml]
 * closes #71 - docs/
 
-### Status
+### Status 1.1.7.5
 
 * Issues
   * closes #41 - KSP 1.3.x
@@ -298,7 +298,7 @@
 * released for KSP 1.3.x
 * KSP minimum version updated to 1.3.0
 
-### Code
+### Code 1.1.7.0
 
 * Rename
   * [agModule.cs] to [RoverAntiGravitySystemModule.cs]
@@ -307,7 +307,7 @@
   * [onSwitch] to [OnSwitch]
 * [RoverAntiGravitySystem.dll] v1.1.7.68
 
-### Status
+### Status 1.1.7.0
 
 * Issues
   * updates #41 - KSP 1.3.x
@@ -331,7 +331,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.6.0
 
 * Update
   * CS1061 error
@@ -339,7 +339,7 @@
 * closes #55 - CS1061: findWorldCenterOfMass
 * [RoverAntiGravitySystem.dll] v1.1.6.67
 
-### Status
+### Status 1.1.6.0
 
 * Issues
   * closes #40 - KSP 1.2.x
@@ -363,7 +363,7 @@
     * linting
     * some light remodeling
 
-### Code
+### Code 1.1.5.0
 
 * Update
   * CS1061 error
@@ -373,7 +373,7 @@
 * closes #54 - CS1061: Rigidbody
 * [RoverAntiGravitySystem.dll] v1.1.5.36
 
-### Status
+### Status 1.1.5.0
 
 * Issues
   * closes #39 - KSP 1.1.x
@@ -410,7 +410,7 @@
     * [TechRequired] from composites to specializedElectrics
     * [cost] from 16 to 2600
 
-### Status
+### Status 1.1.4.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -424,7 +424,7 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Update
+### Update 1.1.2.0
 
 * [agModule.cfg]
   * [node_stack_bottom] from 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0 to 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0
@@ -432,14 +432,14 @@
   * [mass] from 1 to 0.2
   * [attachRules] from 1,1,1,1,0 to 1,1,1,0,0
 
-### Code
+### Code 1.1.2.0
 
 * Changes
   * from [public static int selectedCelestial = 0;] to [public int selectedCelestial = 0;]
   * from [public static double Consumption = 0.5;] to [public float Consumption = 0.5f;]
 * [RoverAntiGravitySystem.dll] v1.1.2.35
 
-### Status
+### Status 1.1.2.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -453,12 +453,12 @@
 * Released for Kerbal Space Program 1.0.5
 * by ximrm and Tuareg
 
-### Changes
+### Changes 1.1.1.0
 
 * Add license.url
 * [RoverAntiGravitySystem.dll] v1.1.1.34
 
-### Status
+### Status 1.1.1.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -479,7 +479,7 @@
 * add
   * [agr-moremetall-diff.png]
 
-### Code
+### Code 1.1.0.0
 
 * Rename
   * Box002 to buttonGreen
@@ -488,7 +488,7 @@
 * this.myAnimation["switch"].speed = 1 from 5;
 * [RoverAntiGravitySystem.dll] v1.1.0.33
   
-### Status
+### Status 1.1.0.0
 
 * Issues
   * updates #26 - Previous Releases
@@ -507,7 +507,7 @@
 * Recompiled by zer0Kerbal
 * Slight updates to bring up to modern standards
 
-### Status
+### Status 1.0.0.0
 
 * Issues
   * updates #26 - Previous Releases
