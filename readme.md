@@ -60,7 +60,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### Help Wanted
 
-> * [MAS][MAS] [RPM][RPM] prop/patch
+> * [MOARdV's Avionics Systems (MAS)][mas]/[Raster Prop Monitor (RPM)][mas] prop/patch
 > * Compatibility patches
 > * Contracts for these glorious parts
 > * Variant Textures and models!
@@ -224,8 +224,10 @@ parts, physics, plugin, control, convenience
 
 [kas]: http://forum.kerbalspaceprogram.com/index.php?/topic/142594-*/ "Kerbal Attachment System"
 [kis]: http://forum.kerbalspaceprogram.com/index.php?/topic/149848-*/ "Kerbal Inventory System"
+[mas]: https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*/ "MOARdV's Avionics Systems (MAS)"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
+[rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*/ "RasterPropMonitor"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
 
 <!-- financial support -->
