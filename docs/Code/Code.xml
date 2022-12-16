@@ -4,6 +4,10 @@
         <name>RoverAntiGravitySystem</name>
     </assembly>
     <members>
+        <member name="M:RoverAntiGravitySystem.RoverAntiGravitySystemModule.SwitchEmissives(System.Boolean)">
+            <summary>SwitchEmissives</summary>
+            <param name="on"></param>
+        </member>
         <member name="M:RoverAntiGravitySystem.RoverAntiGravitySystemModule.NextGravitySetupEvent">
             ************************************************
         </member>
