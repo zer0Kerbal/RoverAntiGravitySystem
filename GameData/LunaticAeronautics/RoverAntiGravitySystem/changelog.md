@@ -17,6 +17,7 @@
 * by zer0Kerbal
 
 * Recompile for 1.5.1
+* <RoverAntiGravitySystem.dll> v1.2.0.104 --> v1.3.0.105
 
 ### Status 1.3.0.0
 
@@ -33,6 +34,7 @@
 * by zer0Kerbal
 
 * Recompile for 1.4.5
+* <RoverAntiGravitySystem.dll> v1.1.75.103 --> v1.2.0.104
 * Create hero logo/cover
 * Updated License: GPL-2.0 + CC BY-SA 4.0
   * was: CC BY-SA 4.0
@@ -68,6 +70,7 @@
 
 * x64 bit only
 * Away With Words - Localization
+* <RoverAntiGravitySystem.dll> v1.1.75.103
 
 * Update
 
