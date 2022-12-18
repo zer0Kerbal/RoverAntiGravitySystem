@@ -22,6 +22,23 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
+## Version 1.4.0.0-release `<To Hover or not To Hover>`
+
+* 16 Dec 2022
+* Released for Kerbal Space Program 1.6.1
+* by zer0Kerbal
+
+* Recompile for 1.6.1
+* <RoverAntiGravitySystem.dll> v1.3.0.105 --> v1.4.0.106
+
+### Status 1.4.0.0
+
+* Issues
+  * closes #44 - KSP 1.6.1
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.3.0.0-release `<Dressed for Flight>`
 
 * 15 Dec 2022
