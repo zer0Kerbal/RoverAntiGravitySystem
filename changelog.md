@@ -12,11 +12,12 @@
 
 ## Version 1.4.0.0-release `<To Hover or not To Hover>`
 
-* 7 Jun, 2022
+* 16 Dec 2022
 * Released for Kerbal Space Program 1.6.1
 * by zer0Kerbal
 
 * Recompile for 1.6.1
+* <RoverAntiGravitySystem.dll> v1.3.0.105 --> v1.4.0.106
 
 ### Status 1.4.0.0
 
