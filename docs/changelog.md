@@ -22,6 +22,36 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
+## Version 1.5.0.0-release `<Room to Fly>`
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.7.3
+* by zer0Kerbal
+
+* Recompile for 1.7.3
+* <RoverAntiGravitySystem.dll> v1.4.0.106 --> v1.5.0.107
+* <rags-agmodule.cfg> v1.2.1.0
+  * add ModuleCargoPart (early)
+  * reduced resource consumption from 0.5 to 0.05
+    * future will make it scale based upon vessel gross mass
+
+### Code 1.5.0.0
+
+* .OnActive
+  * allow for [ModuleEnginesFX]
+  * if (pm.moduleName.Contains("ModuleEngines") | pm.moduleName.Contains("ModuleEnginesFX"))
+* closes #88 - [BUG] .OnActive () throwing err
+
+### Status 1.5.0.0
+
+* Issues
+  * updates #38 - Recompile for major KSP version
+  * closes #45 - KSP 1.7.x
+  * updates #85 - [Request]: resource consumption
+  * closes #87 - Add ModuleCargoPart
+
+---
+
 ## Version 1.4.0.0-release `<To Hover or not To Hover>`
 
 * 16 Dec 2022
