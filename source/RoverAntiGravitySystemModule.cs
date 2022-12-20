@@ -181,7 +181,7 @@ namespace RoverAntiGravitySystem
             {
                 foreach (PartModule pm in p.Modules)
                 {
-                    if (pm.moduleName.Contains("ModuleEngines"))
+                    if (pm.moduleName.Contains("ModuleEngines") | pm.moduleName.Contains("ModuleEnginesFX"))
                         thereIsAnEngine = true;
                 }
             }
