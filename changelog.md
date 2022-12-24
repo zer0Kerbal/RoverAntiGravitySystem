@@ -10,6 +10,25 @@
 | spacedock  | (https://spacedock.info/mod/3166)                                   |
 | ckan       | RoverAntiGravitySystem                                              |
 
+## Version 1.6.0.0-release `<Moar Antigons!!!>`
+
+* 7 Jun, 2022
+* Released for Kerbal Space Program 1.8.1
+* by zer0Kerbal
+
+## Summary 1.6.0.0
+
+* Recompile for 1.8.1
+* <RoverAntiGravitySystem.dll>  v1.5.0.107 --> v1.6.0.108
+
+### Status 1.6.0.0
+
+* Issues
+  * closes #46 - KSP 1.8.1
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.5.0.0-release `<Room to Fly>`
 
 * 7 Jun, 2022
