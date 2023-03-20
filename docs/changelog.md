@@ -19,12 +19,27 @@ CC BY-ND 4.0 by zer0Kerbal
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
-| spacedock  | (https://spacedock.info/mod/3166)                                   |
-| ckan       | RoverAntiGravitySystem                                              |
+
+## Version 1.7.0.0-release `<There's No Place Like Kerbin>`
+
+* 19 Mar 2023
+* Released for Kerbal Space Program 1.9.1
+* by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* Recompile for 1.9.1
+* <RoverAntiGravitySystem.dll>  v1.6.0.108 --> v1.7.0.111
+
+### Status 1.7.0.0
+
+* Issues
+  * closes #47 - KSP 1.9.x
+  * updates #38 - Recompile for major KSP version
+
+---
 
 ## Version 1.6.0.0-release `<Moar Antigons!!!>`
 
-* 7 Jun, 2022
+* 22 Dec 2022
 * Released for Kerbal Space Program 1.8.1
 * by zer0Kerbal
 
@@ -476,3 +491,4 @@ CC BY-ND 4.0 by zer0Kerbal
   * closes #27 - 1.0.0.0-release
 
 ---
+
