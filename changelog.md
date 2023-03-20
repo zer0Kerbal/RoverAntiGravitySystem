@@ -15,7 +15,7 @@
 * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 * Recompile for 1.9.1
-* <RoverAntiGravitySystem.dll>  v1.6.0.108 --> v1.7.0.109
+* <RoverAntiGravitySystem.dll>  v1.6.0.108 --> v1.7.0.111
 
 ### Status 1.7.0.0
 
