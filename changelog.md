@@ -8,6 +8,23 @@
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
 
+## Version 1.7.0.0-release `<There's No Place Like Kerbin>`
+
+* 19 Mar 2023
+* Released for Kerbal Space Program 1.9.1
+* by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* Recompile for 1.9.1
+* <RoverAntiGravitySystem.dll>  v1.6.0.108 --> v1.7.0.109
+
+### Status 1.7.0.0
+
+* Issues
+  * closes #47 - KSP 1.9.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.6.0.0-release `<Moar Antigons!!!>`
 
 * 22 Dec 2022
