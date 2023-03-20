@@ -7,12 +7,10 @@
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
-| spacedock  | (https://spacedock.info/mod/3166)                                   |
-| ckan       | RoverAntiGravitySystem                                              |
 
 ## Version 1.6.0.0-release `<Moar Antigons!!!>`
 
-* 7 Jun, 2022
+* 22 Dec 2022
 * Released for Kerbal Space Program 1.8.1
 * by zer0Kerbal
 
