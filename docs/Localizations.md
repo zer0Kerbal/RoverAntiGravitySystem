@@ -37,7 +37,7 @@ __These localizations for KSP and its DLC's are available through Steam:__
 ## Additionally Included
 
 * ![Español Mexicano][MX] Mexican Spanish (Español Mexicano) <es-mx.cfg>  
-* ![한국어][KO] [Korean (한국어) <ko.cfg>  
+* ![한국어][KO] Korean (한국어) <ko.cfg>  
 * ![Dutch][NL] Dutch (Nederlands) <nl-nl.cfg>  
 * ![Norsk][NO] Norwegian (Norsk) <no-no.cfg>  
 * ![Polski][PO] Polish (Polski) <pl.cfg>  
