@@ -20,6 +20,27 @@ CC BY-ND 4.0 by zer0Kerbal
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
 
+## Version 1.8.0.0-release `<Shared Cockpit>`
+
+* Released
+  * 15 Apr 2023
+  * Released for Kerbal Space Program 1.10.1
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* Recompile for 1.10.1
+  * <RoverAntiGravitySystem.dll>  v1.7.0.111 --> v1.8.0.114
+* reduce EC consuption from 0.05 to 0.01
+* Dependacy:
+  * [Lunatic Aeronautics Ltd (LAL)](https://www.curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd)
+
+### Status 1.8.0.0
+
+* Issues
+  * closes #48 - KSP 1.10.x
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.7.0.0-release `<There's No Place Like Kerbin>`
 
 * 19 Mar 2023
