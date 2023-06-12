@@ -2,7 +2,7 @@
 permalink: /Why.html
 title: Why
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
-tags: fourty-two,42,6x7,6times7,6*7,why,why-not,page,kerbal,ksp,zer0Kerbal,zedK
+tags: forty-two,42,6x7,6times7,6*7,why,why-not,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
 <!-- Why.md v1.1.0.1
