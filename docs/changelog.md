@@ -30,7 +30,7 @@ CC BY-ND 4.0 by zer0Kerbal
 * Recompile for 1.10.1
   * <RoverAntiGravitySystem.dll>  v1.7.0.111 --> v1.8.0.114
 * reduce EC consuption from 0.05 to 0.01
-* Dependacy:
+* Dependency:
   * [Lunatic Aeronautics Ltd (LAL)](https://www.curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd)
 
 ### Status 1.8.0.0
