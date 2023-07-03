@@ -7,7 +7,7 @@ TEMPLATE: readme.md v1.7.2.0
 created: 17 Jul 2017
 updated: 13 Apr 2023
 
-this file: CC BY-ND 4.0 by zer0Kerbal -->
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 [![ Rover Anti Gravity System (RAGS)][SHD:mod]][CURSFG:url]  
 [![KSP version][SHD:ksp]][KSP:url] [![License][LIC:shd]][LIC:url]  
