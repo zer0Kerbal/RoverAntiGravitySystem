@@ -14,7 +14,7 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 [![KSP version][SHD:ksp]][KSP:url] [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
-![Code][SHD:cde] ![MOD-NAME][SHD:dll]
+![Code][SHD:cde] ![RoverAntiGravitySystem][SHD:dll]
 
 > Get better control over your Rover by switching the gravitational influence to another  celestial body.
 >
@@ -26,7 +26,7 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 >
 > From Moho to Eeloo and the moons between!
 
-## By [`zer0Kerbal`][zer0Kerbal], originally by [`ximrm`][ximrm] and [`Tuareg`][tuareg]
+## By [`zer0Kerbal`][zedK], originally by [`ximrm`][ximrm] and [`Tuareg`][tuareg]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
@@ -59,6 +59,11 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 [![Kerbal Space Program: Holy Floaty Rovers!](https://img.youtube.com/vi/v6XxcuiLaAY/0.jpg)](https://youtu.be/v6XxcuiLaAY)
 
+### Localization
+
+>* ![English](https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/img/EN.png) English
+>* ***your translation here***
+
 ### Help Wanted
 
 > * [MOARdV's Avionics Systems (MAS)][mas]/[Raster Prop Monitor (RPM)][mas] prop/patch
@@ -67,13 +72,8 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 > * Variant Textures and models!
 > * Sample Crafts
 > * Marketing Images and Videos such as hero shots, animated gifs, short highlights
-> * Translations: See the [README in the Localization folder][lreadme] for instructions for adding or improving translations. There is also the [quickstart guide][qstart]. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
+> * Translations: See the [README's in the Localization folder](https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/readme.md) for instructions for adding or improving translations. There is also the [quick start guide(s)](https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/quickstart.md). [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
 > * Have a request? Glad to have them, kindly submit through [GitHub][issue].
-
-### Localization
-
->* ![English][EN] English
->* ***your translation here***
 
 ### Installation Directions
 
@@ -83,25 +83,33 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 
 ### Dependencies
 
-* [Lunatic Aeronautics Ltd (LA/L)][LAL]
-* [Kerbal Space Program][KSP:url] [![Kerbal Space Program][SHD:ksp]][KSP:url]
+* 📌 Pinned
+  * Dependencies:
+    * [Lunatic Aeronautics Ltd (LA/L)][LAL]
+    * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][SHD:ksp]][KSP:url]
 
 ### Suggests
 
-* By [Lunatic Aeronautics][LAL]
-  * [Anti Grav Room (LA/AGR)][LAAGR]
-  * [K-MAS (LAMAS)][LAMAS]
-  * [Rover Anti Gravity System (RAGS)][RAGS]
-* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
-* [On Demand Fuel Cells (ODFC)][ODFC]
-* [Kerbal Attachment System (KAS)][kas]
-* [Kerbal Inventory System (KIS)][kis]
+* by [Lunatic Aeronautics (LAL)](https://curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd)
+  * [Anti Grav Room (LAAGR)](https://curseforge.com/kerbal/ksp-mods/antigravroom)
+  * [Kerbal XMAS (XMAS)](https://curseforge.com/kerbal/ksp-mods/KerbalXMAS)
+  * [Rover Anti Gravity System (RAGS)](https://curseforge.com/kerbal/ksp-mods/roverantigravitysystem)
+* [Near Future Rovers (NFR)](https://curseforge.com/kerbal/ksp-mods/NearFutureRovers)
+* [Gimbal Trim (TRIM)](https://curseforge.com/kerbal/ksp-mods/GimbalTrim)
+* [GPO (Goo Pumps & Oils') Speed Pump (GPO)](https://curseforge.com/kerbal/ksp-mods/GPOSpeedPump)
+* [On Demand Fuel Cells (ODFC)](https://curseforge.com/kerbal/ksp-mods/OnDemandFuelCells)
+* [Foundations (FND)](https://curseforge.com/kerbal/ksp-mods/Foundations) <small><i>Helps prevent ground constructions from floating away</small></i>
+* Science!
+  * [Mini Sample Return Capsule (MSRC)](https://www.curseforge.com/kerbal/ksp-mods/MiniSampleReturnCapsule)
+  * [Mkerb Science Instruments](https://curseforge.com/kerbal/ksp-mods/ScienceInstruments)
+  * [OScience Laboratories (OSL)](https://curseforge.com/kerbal/ksp-mods/OScienceLaboratories)
+  * [Papa Kerballini's Pizza (PIZZA)](https://curseforge.com/kerbal/ksp-mods/Pizza)
+* [Kerbal Attachment System (KAS)](https://curseforge.com/kerbal/ksp-mods/kerbal-attachment-system-kas)
+* [Kerbal Inventory System (KIS)](https://curseforge.com/kerbal/ksp-mods/kerbal-inventory-system-kis)
 
 ### Supports
 
-* Either
-  * [ModularManagement (MM)][MM]
-  * [Module Manager][m-m]
+* [ModularManagement (MM)](https://curseforge.com/kerbal/ksp-mods/ModularManagement) or [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/)
 
 ### Tags
 
@@ -121,32 +129,33 @@ parts, physics, plugin, control, convenience
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Author (2) - [`zer0Kerbal`][zer0Kerbal]
+#### Author (2) - [`zer0Kerbal`][zedK]
 
-> Forum: [Thread][forum] - Source: [GitHub][GITHUB:url]  
+> Forum: [Thread][forum] - :src: [GitHub][GITHUB:url] - Download [CurseForge][CURSFG:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
 
-#### Author (1) - [`zer0Kerbal`][zer0Kerbal]
+#### Author (1) - [`zer0Kerbal`][zedK]
 
-> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [CurseForge][MOD:1:source]  
-> License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
+> Forum: [Thread][1:thr] - Download: [CurseForge][1:dwn] - :src: [CurseForge][1::src]  
+> License: [![License][1:shd]][1:url] ![License][1:log]
 
 #### Original (ROOT) (0) - Author: [`ximrm`][ximrm] and [Tuareg][tuareg]
 
-> Forum: [Thread][MOD:0:thread] - Download: [CurseForge][MOD:0:dnload] - Source: [CurseForge][MOD:0:source]  
-> License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
+> Forum: [Thread][0:thr] - Download: [CurseForge][0:dwn] - :src: [CurseForge][0::src]  
+> License: [![License][0::shd]][0::url] ![License][0::log]
 
 #### Disclaimer(s)
 >
->* ***All bundled mods are distributed under their own licenses***
->* ***All assets, including but not limited to: animations, models, sounds and textures are distributed under their own licenses.***
->* see [Notices][notic] for more *legal mumbo jumbo*
+>* ***All bundled mods are distributed under their own licenses***  
+>* ***All assets, including but not limited to: animations, models, sounds and textures are distributed under their own licenses. [![License][LIC:sp:shd]][LIC:sp:url]***
+>
+>* see [Notices][notic] for more *legal Mumbo Jumbo*
 
-### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
+### How to support this and other great mods by [`zer0Kerbal`][zedk]
 
 Comment, click, like, share, up-vote, subscribe
 
-> ***Completely voluntary, absolutely amazing, and really does help me out a lot!***  
+> ***Completely voluntary, absolutely amazing, and really does help out a lot!***  
 > *and it is true.*
 
 [![Support][PAYPAL:img]][PAYPAL:url] [![Patreon][PATREON:img]][PATREON:url]
@@ -164,29 +173,33 @@ Comment, click, like, share, up-vote, subscribe
 <!-- shields -->
 [SHD:cde]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/code.json
 [SHD:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/mod.json
+[SHD:dll]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/dll.json
 [SHD:pgs]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!-- mod provenance -->
-[MOD:0:dnload]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
-[MOD:0:source]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
-[MOD:0:thread]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Forum"
+[0:dwn]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
+[0::src]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
+[0:thr]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Forum"
 
-[MOD:1:dnload]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
-[MOD:1:source]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
-[MOD:1:thread]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Forum"
+[1:dwn]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
+[1::src]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravitysystem "CurseForge"
+[1:thr]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Forum"
 
 <!-- license provenance -->
-[LIC:0:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:0:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:0:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
+[0::url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
+[0::log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
+[0::shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
 
-[LIC:1:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:1:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:1:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
+[1:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
+[1:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
+[1:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
 
-[LIC:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPL-2.0"
-[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-2.0"
-[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/license.json "GPL-2.0"
+[LIC:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPL-2.0+ARR"
+[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-2.0+ARR"
+[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/license.json "GPL-2.0+ARR"
+
+[LIC:sp:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
+[LIC:sp:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-white?labelColor=black&style=plastic "All Rights Reserved"
 
 <!-- release links -->
 [CURSFG:url]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Curseforge"
@@ -199,35 +212,20 @@ Comment, click, like, share, up-vote, subscribe
 [KSP:url]: https://kerbalspaceprogram.com/ "Kerbal Space Program"
 [SHD:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/json/ksp.json "Kerbal Space Program"
 
-<!-- links to add-ons/mods -->  
-[GPO]: https://www.curseforge.com/kerbal/ksp-mods/GPOSpeedPump "GPO SpeedPump (GPO)"
-[ODFC]: https://www.curseforge.com/kerbal/ksp-mods/OnDemandFuelCells "On Demand Fuel Cells (ODFC)"
-
+<!-- links -->
 [LAL]: https://www.curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd "Lunatic Aeronautics Ltd (LAL)"
-[LAAGR]: https://www.curseforge.com/kerbal/ksp-mods/antigravroom  "Anti Grav Room"
-[RAGS]: https://www.curseforge.com/kerbal/ksp-mods/roverantigravityroom "Rover Anti Gravity System"
-[XMAS]: https://www.curseforge.com/kerbal/ksp-mods/KerbalXMAS "Kerbal XMAS (XMAS)"
 
-[kas]: http://forum.kerbalspaceprogram.com/index.php?/topic/142594-*/ "Kerbal Attachment System"
-[kis]: http://forum.kerbalspaceprogram.com/index.php?/topic/149848-*/ "Kerbal Inventory System"
-[m-m]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
-[mas]: https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*/ "MOARdV's Avionics Systems (MAS)"
-[MM]: https://www.curseforge.com/kerbal/ksp-mods/ModularManagement "ModularManagement (MM)"
-[rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*/ "RasterPropMonitor"
-[twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
+[ximrm]: https://forum.kerbalspaceprogram.com/index.php?/profile/111063-*/ "ximrm"
+[tuareg]: https://forum.kerbalspaceprogram.com/index.php?/profile/84241-*/ "Tuareg"
+[zedK]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
-[PAYPAL:url]: https://www.paypal.com/donate?hosted_button_id=DC22YHMEJREKL "PayPal"
+[PAYPAL:url]: https://www.paypal.com/donate/?hosted_button_id=DC22YHMEJREKL "PayPal"
 [PATREON:img]: https://img.shields.io/badge/Patreon%20-Patreonize-FF424D?style=for-the-badge&logo=patreon/ "Patreon"
 [PATREON:url]: https://www.patreon.com/zer0Kerbal/membership "Patreon"
 
-<!-- Localization -->
-[lreadme]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/readme.md "Localization Readme"
-[qstart]: https://github.com/zer0Kerbal/zer0Kerbal/blob/master/Localization/quickstart.md "Quickstart"
-[EN]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png "English"
-
-[curseforge]: https://www.curseforge.com/members/zer0kerbal/projects
+[curseforge]: https://curseforge.com/members/zer0kerbal/projects
 [reddit]: https://www.reddit.com/user/zer0Kerbal
 [twitch]: https://www.twitch.tv/zer0kerbal
 [twitter]: https://twitter.com/zer0Kerbal
@@ -235,12 +233,8 @@ Comment, click, like, share, up-vote, subscribe
 [steam]: https://steamcommunity.com/id/zeroKerbal
 [projects]: https://zer0kerbal.github.io/zer0Kerbal/projects.html
 
-[ximrm]: https://forum.kerbalspaceprogram.com/index.php?/profile/111063-*/ "ximrm"
-[tuareg]: https://forum.kerbalspaceprogram.com/index.php?/profile/84241-*/ "Tuareg"
-[zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
-
 #### Connect with me
 
 Track progress: issues [here][issue] and projects [here](https://github.com/zer0Kerbal/RoverAntiGravitySystem/projects/) along with **[The Short List](https://github.com/users/zer0Kerbal/projects/27)**
 
-[<img align="left" alt="zer0Kerbal | kerbalspaceprogram.com" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/32/kerbalspaceprogram_93898.png" />][zer0Kerbal] [<img align="left" alt="zer0Kerbal | CurseForge" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/curseforge.svg" />][curseforge] [<img align="left" alt="zer0Kerbal | reddit" width="32px" src="https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-reddit-4661631_122483.png" />][reddit] [<img align="left" alt="zer0Kerbal | Patreon" width="32px" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/patreon_logo_icon_147253.png" />][PATREON:url] [<img align="left" alt="zer0Kerbal | YouTube" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Youtube_icon-icons.com_66802.png" />][youtube] [<img align="left" alt="zer0Kerbal | Twitch" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/twitch_logo_icon_170383.png" />][twitch] [<img align="left" alt="zer0Kerbal | PayPal" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/paypal_logo_icon_168055.png" />][PAYPAL:url] [<img align="left" alt="zer0Kerbal | steam" width="32px" src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-05/48/Steam-icon.png" />][steam] [<img align="left" alt="zer0Kerbal | Twitter" width="32px" src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/twitter-32.ico" />][twitter] [<img align="left" alt="zer0Kerbal | project list" width="32px" src="https://www.pngall.com/wp-content/uploads/5/Vector-Checklist-PNG-HD-Image-180x180.png" />][projects]</br> 
+[<img align="left" alt="zer0Kerbal | kerbalspaceprogram.com" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/32/kerbalspaceprogram_93898.png" />][zedk] [<img align="left" alt="zer0Kerbal | CurseForge" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/curseforge.svg" />][curseforge] [<img align="left" alt="zer0Kerbal | reddit" width="32px" src="https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-reddit-4661631_122483.png" />][reddit] [<img align="left" alt="zer0Kerbal | Patreon" width="32px" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/patreon_logo_icon_147253.png" />][PATREON:url] [<img align="left" alt="zer0Kerbal | YouTube" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Youtube_icon-icons.com_66802.png" />][youtube] [<img align="left" alt="zer0Kerbal | Twitch" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/twitch_logo_icon_170383.png" />][twitch] [<img align="left" alt="zer0Kerbal | PayPal" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/paypal_logo_icon_168055.png" />][PAYPAL:url] [<img align="left" alt="zer0Kerbal | steam" width="32px" src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-05/48/Steam-icon.png" />][steam] [<img align="left" alt="zer0Kerbal | Twitter" width="32px" src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/twitter-32.ico" />][twitter] [<img align="left" alt="zer0Kerbal | project list" width="32px" src="https://www.pngall.com/wp-content/uploads/5/Vector-Checklist-PNG-HD-Image-180x180.png" />][projects]</br>
