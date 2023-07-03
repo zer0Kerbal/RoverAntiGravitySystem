@@ -11,7 +11,7 @@
 ## Version 1.9.0.0-release `<Batteries Not Included>`
 
 * 01 Jul 2023
-* Release for Kerbal Space Program 1.10.1
+* Release for Kerbal Space Program 1.11.1
 * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 * 📌 Pinned
