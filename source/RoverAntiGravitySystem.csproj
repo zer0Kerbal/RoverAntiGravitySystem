@@ -78,10 +78,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
-  <PropertyGroup>
+  <!-- <PropertyGroup>
     <PreBuildEvent>"$(DevEnvDir)\TextTransform.exe" "$(ProjectDir)Properties\Version.tt" 
     </PreBuildEvent>
-  </PropertyGroup>
+  </PropertyGroup> -->
   <PropertyGroup>
     <PostBuildEvent>
 set K112=$(K112)
