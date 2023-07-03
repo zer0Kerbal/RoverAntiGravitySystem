@@ -8,6 +8,26 @@
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem) |
 
+## Version 1.9.0.0-release `<Batteries Not Included>`
+
+* 01 Jul 2023
+* Release for Kerbal Space Program 1.10.1
+* by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * Dependencies:
+    * [Lunatic Aeronautics Ltd (LAL)](https://www.curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd)
+
+* Recompile for 1.11.1
+
+### Status 1.9.0.0
+
+* Issues
+  * closes #49 - KSP 1.11.2
+  * updates #38 - Recompile for major KSP version
+
+---
+
 ## Version 1.8.0.0-release `<Shared Cockpit>`
 
 * Released
