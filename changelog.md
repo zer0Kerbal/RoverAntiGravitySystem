@@ -2,7 +2,7 @@
   
 | modName    | Rover Anti Gravity System (RAGS)                                    |
 | ---------- | ------------------------------------------------------------------- |
-| license    | GPL-2.0                                                             |
+| license    | GPL-2.0+ARR                                                         |
 | author     | ximrm, Tuareg and zer0Kerbal                                        |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/208483-*/)   |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/RoverAntiGravitySystem)   |
@@ -19,6 +19,7 @@
     * [Lunatic Aeronautics Ltd (LAL)](https://www.curseforge.com/kerbal/ksp-mods/lunaticaeronauticsltd)
 
 * Recompile for 1.11.1
+  * <RoverAntiGravitySystem.dll>  v1.8.0.114 --> v1.9.0.116
 
 ### Status 1.9.0.0
 
