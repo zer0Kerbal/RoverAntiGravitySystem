@@ -1,39 +1,36 @@
-<!-- readme.md v1.8.0.0
+<!-- readme.md v1.9.0.0
 Rover Anti Gravity System (RAGS)
 created: 16 Jun 2022
 updated: 15 Apr 2023
 
-TEMPLATE: readme.md v1.7.2.0
+TEMPLATE: readme.md v1.7.4.2
 created: 17 Jul 2017
-updated: 13 Apr 2023
+updated: 18 Jun 2023
 
 THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+# [Rover Anti Gravity System (LA/RAGS)][CURSFG:url]
 
 [![ Rover Anti Gravity System (RAGS)][SHD:mod]][CURSFG:url]  
 [![KSP version][SHD:ksp]][KSP:url] [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![Pages][SHD:pgs]][pages]
 
-![Code][SHD:cde]
+![Code][SHD:cde] ![MOD-NAME][SHD:dll]
 
-Get better control over your Rover by switching the gravitational influence to another celestial body.
-
-Lunatic Aeronautics present *the*
-
-# Rover Anti Gravity System (LA/RAGS)
-
-Not enough traction or are the hills too steep and your rover doesn't have the power to climb them up?
-
-Here's the solution!
-
-Put the RAGS module onto your rover and your pilot can switch the gravitational influence on your rover to the celestial body you desire!
-
-From Moho to Eeloo and the moons between!
+> Get better control over your Rover by switching the gravitational influence to another  celestial body.
+>
+> Not enough traction or are the hills too steep and your rover doesn't have the power to climb them up?
+>
+> Here's the solution!
+>
+> Put the RAGS module onto your rover and your pilot can switch the gravitational influence >on your rover to the celestial body you desire!
+>
+> From Moho to Eeloo and the moons between!
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally by [`ximrm`][ximrm] and [`Tuareg`][tuareg]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/img/HeroLogo_1920x1920.png" alt="RoverAntiGravitySystem Hero" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/img/HeroLogo.png" alt="Rover Anti Gravity System (RAGS)" width="50%" height="50%">
 
 ### Preamble by [Taureg][tuareg]
 
