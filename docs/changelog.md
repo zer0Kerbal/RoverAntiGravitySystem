@@ -11,7 +11,7 @@ created: 13 May 2022
 updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
-  
+
 | modName    | Rover Anti Gravity System (RAGS)                                    |
 | ---------- | ------------------------------------------------------------------- |
 | license    | GPL-2.0+ARR                                                         |
@@ -23,7 +23,7 @@ CC BY-ND 4.0 by zer0Kerbal
 ## Version 1.9.0.0-release `<Batteries Not Included>`
 
 * 01 Jul 2023
-* Release for Kerbal Space Program 1.10.1
+* Release for Kerbal Space Program 1.11.1
 * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
 * 📌 Pinned
