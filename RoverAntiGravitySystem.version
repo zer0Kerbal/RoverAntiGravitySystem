@@ -11,16 +11,16 @@
 	},
 	"VERSION" :
 	{
-		"MAJOR" : 1,
-		"MINOR" : 9,
+		"MAJOR" : 2,
+		"MINOR" : 0,
 		"PATCH" : 0,
 		"BUILD" : 0
 	},
 	"KSP_VERSION" :
 	{
 		"MAJOR" : 1,
-		"MINOR" : 11,
-		"PATCH" : 1
+		"MINOR" : 12,
+		"PATCH" : 5
 	},
 	"KSP_VERSION_MIN" :
 	{
@@ -31,7 +31,7 @@
 	"KSP_VERSION_MAX" :
 	{
 		"MAJOR" : 1,
-		"MINOR" : 11,
+		"MINOR" : 12,
 		"PATCH" : 9999
 	},
 	"INSTALL_LOC" :
