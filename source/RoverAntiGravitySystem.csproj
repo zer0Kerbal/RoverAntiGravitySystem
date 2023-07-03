@@ -67,19 +67,19 @@
       <DependentUpon>version.tt</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
+  <!-- <ItemGroup>
     <Content Include="Properties\version.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>version.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
+  </ItemGroup> -->
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
   <PropertyGroup>
-    <PreBuildEvent>"$(DevEnvDir)\TextTransform.exe" "$(ProjectDir)Properties\Version.tt" 
+    <PreBuildEvent>"$(DevEnvDir)\TextTransform.exe" "$(ProjectDir)Properties\Version.tt"
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>

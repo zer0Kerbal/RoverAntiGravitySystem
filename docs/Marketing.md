@@ -33,24 +33,23 @@ this file:
 
 ### Photo Album
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-01.png" alt="HERO 01" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-01.png" alt="HERO 01" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-02.png" alt="HERO 02" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-02.jpg" alt="HERO 02" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-03.png" alt="HERO 03" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-03.png" alt="HERO 03" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-04.png" alt="HERO 04" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-04.png" alt="HERO 04" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-05.png" alt="HERO 05" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-05.jpg" alt="HERO 05" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-PART.png" alt="Part HERO" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/HERO-PART-0.png" alt="Part HERO" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/LA.png" alt="Lunitic Aeronautics" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/LA.png" alt="Lunitic Aeronautics" width="25%" height="25%" />
 
-  <docs/Marketing src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/PartInfo.png" alt="Editor Part Info" width="25%" height="25%" /> 
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/RoverAntiGravitySystem/master/docs/Marketing/PartInfo.png" alt="Editor Part Info" width="25%" height="25%" />
 
+THIS FILE: CC BY-ND 4.0 by [zer0Kerbal](https://github.com/zer0Kerbal)
+  used with express permission from zer0Kerbal
 
-
-[top](#table-of-contents)
-
-<!-- THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/RoverAntiGravitySystem "Rover Anti Gravity System (RAGS)"
